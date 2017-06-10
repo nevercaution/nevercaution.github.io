@@ -220,11 +220,7 @@ APIVIew, View 두개의 경우를 살펴보자.<br>
 <ul>
 <li>template.html</li>
 </ul>
-
-
-undefined
-
-
+<figure class="highlight lua"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line">&#123;% raw %&#125;</div><div class="line">$.ajax(&#123;</div><div class="line">    url: <span class="string">"&#123;% url 'request:url' %&#125;"</span>,</div><div class="line">    <span class="built_in">type</span>: <span class="string">'POST'</span>,</div><div class="line">    data: &#123;</div><div class="line">        <span class="string">'user_id'</span>: user_id</div><div class="line">    &#125;,</div><div class="line">    success: <span class="function"><span class="keyword">function</span> <span class="params">(response)</span></span> &#123;</div><div class="line">        // TODO: <span class="keyword">do</span> something.</div><div class="line">    &#125;,</div><div class="line">    <span class="built_in">error</span>: <span class="function"><span class="keyword">function</span> <span class="params">(err)</span></span> &#123;</div><div class="line">        console.<span class="built_in">log</span>(err);</div><div class="line">    &#125;</div><div class="line">&#125;);</div><div class="line">&#123;% endraw %&#125;</div></pre></td></tr></table></figure>
 <ul>
 <li><a href="http://url.py" target="_blank" rel="external">url.py</a></li>
 </ul>
