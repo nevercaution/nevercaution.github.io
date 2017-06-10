@@ -260,13 +260,19 @@ alpha 에서 로그아웃을 할 경우, 나머지 사이트에서도 모두 로
 rest framework 의 <u>authentication</u> class 에서 cookie 에 저장되어 있는 token 값의 유효성을 검사한다.<br>
 rest framework 의 <u>permission</u> class 에서 해당 유저가 기능에 접근 허가 여부를 판단한다.</li>
 <li>로그아웃 시 : cookie 의 token 값을 지워준다.</li>
-<li>추가 정보</li>
+<li>추가 정보
+<ul>
 <li>인증에 실패한 경우 : cookie 값을 삭제하고 login 페이지로 보낸다.</li>
 <li>기능 접근 허가가 거부된 경우 : block page 를 표시한다.</li>
 <li>토큰이 만료된 경우 : cookie 값을 삭제하고 login 페이지로 보낸다.</li>
-<li>제약사항</li>
+</ul>
+</li>
+<li>제약사항
+<ul>
 <li>메인 도메인이 동일해야한다.</li>
 <li>permission 정보는 공유하지 않기 때문에 각자 사이트에서 구현해야 한다.</li>
+</ul>
+</li>
 </ol>
 <h2 id="환경-설정">환경 설정</h2>
 <figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="selector-tag">python</span> 3<span class="selector-class">.4</span><span class="selector-class">.3</span></div><div class="line"><span class="selector-tag">django</span> 1<span class="selector-class">.8</span><span class="selector-class">.4</span></div><div class="line"><span class="selector-tag">djangorestframework</span> 3<span class="selector-class">.3</span><span class="selector-class">.0</span></div></pre></td></tr></table></figure>
