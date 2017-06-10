@@ -18,7 +18,7 @@
         
     </title>
 
-    <link rel="canonical" href="https://nevercaution.github.io/2017/06/10/django-ajax/">
+    <link rel="canonical" href="https://nevercaution.github.io/2016/03/27/django-ajax/">
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="/css/bootstrap.min.css">
@@ -95,7 +95,7 @@
                         <h2 class="subheading"></h2>
                         <span class="meta">
                             Posted by teddy on
-                            2017-06-10
+                            2016-03-27
                         </span>
                     </div>
                 
@@ -221,6 +221,7 @@ APIVIew, View 두개의 경우를 살펴보자.<br>
 <li>template.html</li>
 </ul>
 
+
 undefined
 
 
@@ -266,12 +267,14 @@ ajax를 통해 View class에 메소드를 호출하는 경우는 많지는 않�
 <li>template.html</li>
 </ul>
 
+
 undefined
 
 
 
 위의 tempalate에서 입력받은 데이터를 통해 ajax로 호출을 한다. 이 때 호출되는 class는 View를 상속받은 class 이다. form의 submit으로 호출을 한 경우인데 form에 {% csrf_token %}이 들어가있기 때문에 post요청을 날릴 경우엔 403이 떨어진다.(get요청은 안넣어도 상관없다.)
 이런 경우를 방지하기 위해 data필드에 csrf token 을 넣어준다.
+
 
 
 undefined
@@ -365,8 +368,8 @@ undefined
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES * * */
     var disqus_shortname = "nevercaution";
-    var disqus_identifier = "https://nevercaution.github.io/2017/06/10/django-ajax/";
-    var disqus_url = "https://nevercaution.github.io/2017/06/10/django-ajax/";
+    var disqus_identifier = "https://nevercaution.github.io/2016/03/27/django-ajax/";
+    var disqus_url = "https://nevercaution.github.io/2016/03/27/django-ajax/";
 
     (function() {
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
