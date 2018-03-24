@@ -5,10 +5,10 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="google-site-verification" content="xBT4GhYoi5qRD5tr338pgPM5OWHHIDR6mNg1a3euekI" />
+    <meta name="google-site-verification" content="xBT4GhYoi5qRD5tr338pgPM5OWHHIDR6mNg1a3euekI">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <meta name="keyword"  content="">
+    <meta name="keyword" content="">
     <link rel="shortcut icon" href="/img/ironman-draw.png">
     <!-- Place this tag in your head or just before your close body tag. -->
     <script async defer src="https://buttons.github.io/buttons.js"></script>
@@ -58,7 +58,17 @@
     <![endif]-->
 
     <!-- ga & ba script hoook -->
-    <script></script>
+    <!-- <script></script> -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-100815581-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-100815581-1');
+    </script>
+
 </head>
 
 
@@ -69,14 +79,14 @@
 <style type="text/css">
     header.intro-header{
         
-            background-image: url('/img/header_img/home-bg-2-dark.png') 
+            background-image: url('/img/header_img/bg.png') 
             /*config*/
         
     }
     
 </style>
 
-<header class="intro-header" >
+<header class="intro-header">
     <!-- Signature -->
     <div id="signature">
         <div class="container">
@@ -86,7 +96,7 @@
                     <div class="site-heading">
                         <h1>nevercaution</h1>
                         <!--<hr class="small">-->
-                        <span class="subheading">blog</span>
+                        <span class="subheading">작은일기장</span>
                     </div>
                 
 
@@ -139,14 +149,14 @@
 
                         
                         <li>
-                            <a href="/tags/">Tags</a>
+                            <a href="/archive/">Archives</a>
                         </li>
                         
                     
 
                         
                         <li>
-                            <a href="/archive/">Archives</a>
+                            <a href="/tags/">Tags</a>
                         </li>
                         
                     
@@ -206,6 +216,114 @@
             
                 <!-- Main Content -->
 
+
+<div class="post-preview">
+
+    <a href="/2018/03/24/spring-boot-actuator/">
+        <h2 class="post-title">
+            Spring Boot Actuator 를 이용해 버전 정보 제공하기
+        </h2>
+        <h3 class="post-subtitle">
+            
+        </h3>
+        <div class="post-content-preview">
+            지금 dev 서버에 배포되어 있는 서버 버전이 몇인가요?
+회사에 서버환경은 dev, sandbox, test, beta, alpha, real 으로 나뉘어 있다. 각 단계별로 기능 테스트를 하고 QA를 통해 모든 기능이 개발 완료 되고 QA도 끝나면 real 서버에 배포가 된다.
+나와 클라이언트 개발자는 먼저 dev 서버에서 새로운 기능이나 버그 수정......
+        </div>
+    </a>
+    
+        <p class="post-meta" style="margin: 10px 0;">
+            Posted by teddy on
+            2018-03-24
+        </p>
+        <div class="tags">
+            
+              <a href="/tags/#springboot" title="springboot">springboot</a>
+            
+              <a href="/tags/#gradle" title="gradle">gradle</a>
+            
+              <a href="/tags/#spring-boot-actuator" title="spring-boot-actuator">spring-boot-actuator</a>
+            
+        </div>
+    
+
+</div>
+<hr>
+
+<div class="post-preview">
+
+    <a href="/2018/03/15/elasticsearch-rest-client/">
+        <h2 class="post-title">
+            Spring-boot 에서 Elasticsearch java rest client 사용하기
+        </h2>
+        <h3 class="post-subtitle">
+            
+        </h3>
+        <div class="post-content-preview">
+            elasticsearch 버전을 올려야 한다.
+검색 서비스를 개선하면서 사내에서 elasticsearch 를 사용하고 있다.
+처음에 사용했던 버전은 개발 당시의 가장 최근 버전인 elasticsearch 5.1.1 버전이다.
+spring boot 에 연동했는데 spring-boot-data-elasticsearch-starter 는 (글을 작성하는) ......
+        </div>
+    </a>
+    
+        <p class="post-meta" style="margin: 10px 0;">
+            Posted by teddy on
+            2018-03-15
+        </p>
+        <div class="tags">
+            
+              <a href="/tags/#springboot" title="springboot">springboot</a>
+            
+              <a href="/tags/#elasticsearch" title="elasticsearch">elasticsearch</a>
+            
+              <a href="/tags/#restclient" title="restclient">restclient</a>
+            
+              <a href="/tags/#javaclient" title="javaclient">javaclient</a>
+            
+              <a href="/tags/#transportlyer" title="transportlyer">transportlyer</a>
+            
+        </div>
+    
+
+</div>
+<hr>
+
+<div class="post-preview">
+
+    <a href="/2018/02/22/spring-boot-jsp/">
+        <h2 class="post-title">
+            spring boot 에서 jsp view 만들기 (feat freemarker)
+        </h2>
+        <h3 class="post-subtitle">
+            
+        </h3>
+        <div class="post-content-preview">
+            view를 추가해야한다.
+spring 을 사용하다가 spring boot 로 넘어오면서 front, back 을 나누어서 백단은 나름 Restful 하게 해서 api 콜만 처리하는 방식으로 변경하는 중이다.(front 는 react로 구성하는 중이다.) 그래서 spring boot 에서는 따로 view 처리해야할 일이 없었는데 기존에 spring 에서......
+        </div>
+    </a>
+    
+        <p class="post-meta" style="margin: 10px 0;">
+            Posted by teddy on
+            2018-02-22
+        </p>
+        <div class="tags">
+            
+              <a href="/tags/#springboot" title="springboot">springboot</a>
+            
+              <a href="/tags/#gradle" title="gradle">gradle</a>
+            
+              <a href="/tags/#jsp" title="jsp">jsp</a>
+            
+              <a href="/tags/#freemarker" title="freemarker">freemarker</a>
+            
+        </div>
+    
+
+</div>
+<hr>
 
 <div class="post-preview">
 
@@ -381,9 +499,31 @@ APIVIew, View 두개의 경우를 살펴보자.
             
         
             
+            <a href="/tags/#springboot" title="springboot" rel="3">springboot</a>
+            
+        
+            
+            <a href="/tags/#gradle" title="gradle" rel="2">gradle</a>
+            
+        
+            
         
             
             <a href="/tags/#python" title="python" rel="2">python</a>
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
             
         
             
@@ -422,7 +562,7 @@ APIVIew, View 두개의 경우를 살펴보자.
 
             
                 <li>
-                    <a target="_blank" href="https://www.facebook.com/hoguen.yoon">
+                    <a target="_blank" href="https://www.facebook.com/hoguen.yoon" rel="external nofollow noopener noreferrer">
                         <span class="fa-stack fa-lg">
                             <i class="fa fa-circle fa-stack-2x"></i>
                             <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
@@ -433,7 +573,7 @@ APIVIew, View 두개의 경우를 살펴보자.
 
             
                 <li>
-                    <a target="_blank"  href="https://github.com/nevercaution">
+                    <a target="_blank" href="https://github.com/nevercaution" rel="external nofollow noopener noreferrer">
                         <span class="fa-stack fa-lg">
                             <i class="fa fa-circle fa-stack-2x"></i>
                             <i class="fa fa-github fa-stack-1x fa-inverse"></i>
@@ -450,9 +590,21 @@ APIVIew, View 두개의 경우를 살펴보자.
         <hr>
     
         
-  <h5>RECENT POSTS</h3>
+  <h5>RECENT POSTS
   <div class="widget">
     <ul>
+      
+        <li>
+          <a href="/2018/03/24/spring-boot-actuator/">Spring Boot Actuator 를 이용해 버전 정보 제공하기</a>
+        </li>
+      
+        <li>
+          <a href="/2018/03/15/elasticsearch-rest-client/">Spring-boot 에서 Elasticsearch java rest client 사용하기</a>
+        </li>
+      
+        <li>
+          <a href="/2018/02/22/spring-boot-jsp/">spring boot 에서 jsp view 만들기 (feat freemarker)</a>
+        </li>
       
         <li>
           <a href="/2017/06/23/django-orm-standalone/">Django orm standalone feat(docker)</a>
@@ -462,20 +614,12 @@ APIVIew, View 두개의 경우를 살펴보자.
           <a href="/2016/05/06/django-sso/">Django에서 SSO하기</a>
         </li>
       
-        <li>
-          <a href="/2016/03/27/django-ajax/">Django에서 ajax요청하기</a>
-        </li>
-      
-        <li>
-          <a href="/2016/03/11/store-inapp-in-python/">Python에서 iOS, Android 스토어 인앱 결제 검증하기</a>
-        </li>
-      
     </ul>
   </div>
-
+</h5>
         <hr>
     
-        <!-- Friends Blog -->
+        <!-- Categories -->
 
         <hr>
     
@@ -501,7 +645,7 @@ APIVIew, View 두개의 경우를 살펴보자.
 
                 
                     <li>
-                        <a target="_blank" href="https://www.facebook.com/hoguen.yoon">
+                        <a target="_blank" href="https://www.facebook.com/hoguen.yoon" rel="external nofollow noopener noreferrer">
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle fa-stack-2x"></i>
                                 <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
@@ -512,7 +656,7 @@ APIVIew, View 두개의 경우를 살펴보자.
 
                 
                     <li>
-                        <a target="_blank"  href="https://github.com/nevercaution">
+                        <a target="_blank" href="https://github.com/nevercaution" rel="external nofollow noopener noreferrer">
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle fa-stack-2x"></i>
                                 <i class="fa fa-github fa-stack-1x fa-inverse"></i>
@@ -525,17 +669,14 @@ APIVIew, View 두개의 경우를 살펴보자.
 
                 </ul>
                 <p class="copyright text-muted">
-                    Copyright &copy; teddy 2017 
+                    Copyright &copy; teddy 2018 
                     <br>
-                    Theme by <a href="http://huangxuan.me">Hux</a> 
+                    Theme by <a href="http://huangxuan.me" rel="external nofollow noopener noreferrer" target="_blank">Hux</a> 
                     <span style="display: inline-block; margin: 0 5px;">
                         <i class="fa fa-heart"></i>
                     </span> 
-                    re-Ported by <a href="http://beantech.org">BeanTech</a> | 
-                    <iframe
-                        style="margin-left: 2px; margin-bottom:-5px;"
-                        frameborder="0" scrolling="0" width="91px" height="20px"
-                        src="https://ghbtns.com/github-btn.html?user=YenYuHsuan&repo=hexo-theme-beantech&type=star&count=true" >
+                    re-Ported by <a href="http://beantech.org" rel="external nofollow noopener noreferrer" target="_blank">BeanTech</a> | 
+                    <iframe style="margin-left: 2px; margin-bottom:-5px;" frameborder="0" scrolling="0" width="91px" height="20px" src="https://ghbtns.com/github-btn.html?user=YenYuHsuan&repo=hexo-theme-beantech&type=star&count=true">
                     </iframe>
                 </p>
             </div>
@@ -613,7 +754,7 @@ APIVIew, View 두개의 경우를 살펴보자.
 <script>
     // dynamic User by Hux
     var _gaId = 'UA-100815581-1';
-    var _gaDomain = 'https://analytics.google.com/analytics/web/?authuser=0#report/defaultid/a100815581w147829782p152668621/';
+    var _gaDomain = 'nevercaution.github.io';
 
     // Originial
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -627,7 +768,6 @@ APIVIew, View 두개의 경우를 살펴보자.
 
 
 
-
 <!-- Baidu Tongji -->
 
 
@@ -636,10 +776,10 @@ APIVIew, View 두개의 경우를 살펴보자.
 
 
 	<a id="rocket" href="#top" class=""></a>
-	<script type="text/javascript" src="/js/totop.js?v=1.0.0" async=""></script>
-    <script type="text/javascript" src="/js/toc.js?v=1.0.0" async=""></script>
+	<script type="text/javascript" src="/js/totop.js?v=1.0.0" async></script>
+    <script type="text/javascript" src="/js/toc.js?v=1.0.0" async></script>
 <!-- Image to hack wechat -->
-<img src="https://nevercaution.github.io/img/icon_wechat.png" width="0" height="0" />
+<img src="https://nevercaution.github.io/img/icon_wechat.png" width="0" height="0">
 <!-- Migrate from head to bottom, no longer block render and still work -->
 
 </body>

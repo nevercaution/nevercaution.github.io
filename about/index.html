@@ -5,10 +5,10 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="google-site-verification" content="xBT4GhYoi5qRD5tr338pgPM5OWHHIDR6mNg1a3euekI" />
+    <meta name="google-site-verification" content="xBT4GhYoi5qRD5tr338pgPM5OWHHIDR6mNg1a3euekI">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <meta name="keyword"  content="">
+    <meta name="keyword" content="">
     <link rel="shortcut icon" href="/img/ironman-draw.png">
     <!-- Place this tag in your head or just before your close body tag. -->
     <script async defer src="https://buttons.github.io/buttons.js"></script>
@@ -58,7 +58,17 @@
     <![endif]-->
 
     <!-- ga & ba script hoook -->
-    <script></script>
+    <!-- <script></script> -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-100815581-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-100815581-1');
+    </script>
+
 </head>
 
 
@@ -69,14 +79,14 @@
 <style type="text/css">
     header.intro-header{
         
-            background-image: url('/')
+            background-image: url('/img/header_img/bg.png')
             /*page*/
         
     }
     
 </style>
 
-<header class="intro-header" >
+<header class="intro-header">
     <!-- Signature -->
     <div id="signature">
         <div class="container">
@@ -139,14 +149,14 @@
 
                         
                         <li>
-                            <a href="/tags/">Tags</a>
+                            <a href="/archive/">Archives</a>
                         </li>
                         
                     
 
                         
                         <li>
-                            <a href="/archive/">Archives</a>
+                            <a href="/tags/">Tags</a>
                         </li>
                         
                     
@@ -204,57 +214,8 @@
                 post-container
             ">
             
-                <h2 id="지금까지-했던-일은">지금까지 했던 일은</h2>
-<blockquote>
-<h3 id="첫번-째-회사">첫번 째 회사</h3>
-<p>Fungrep</p>
-<h4 id="기간">기간</h4>
-<p>2012.3 ~ 2014.10</p>
-<h4 id="포지션">포지션</h4>
-<p>game client programmer</p>
-<h4 id="사용-엔진">사용 엔진</h4>
-<p>cocos2d-android, cocos2d-ios<br>
-cocos2d-x (0.x ~ 3.x)</p>
-<h4 id="사용-언어">사용 언어</h4>
-<p>c++, erlang, java, objective-c</p>
-<h4 id="주석">주석</h4>
-<ul>
-<li>개발 초기에는 게임 엔진 없이 네이티브 언어로 각 플랫폼별 개발함.</li>
-<li>일단 android 작업 후 ios 작업 또는 그 반대로 작업함.</li>
-<li>추후에 cocos2d 엔진을 도입하면서 네이티브 코드는 걷어냄.</li>
-<li>cocos2d-x 초기 버전은 버그가 많고 제품 개발에는 좋은 엔진이 아니었기 때문에 지켜보고 있다가 안정화가 되면서 적극적으로 사용함.</li>
-<li>애니메이션은 초반에는 모든 것을 손으로 구현하다가 cocosBuilder, spine 으로 대체했음. <s>손으로 구현했을 때는 엄청난 노가다가 있었음</s></li>
-</ul>
-<h3 id="두번-째-회사">두번 째 회사</h3>
-<p>Podotree</p>
-<h4 id="기간">기간</h4>
-<p>2014.11 ~ 현재</p>
-<h4 id="포지션">포지션</h4>
-<p>server programmer</p>
-<h4 id="사용-엔진-및-프레임워크">사용 엔진 및 프레임워크</h4>
-<p>django, docker, mongo, redis, elasticsearch, logstash, kibana, puppet, node, celery, cocos2d-x</p>
-<h4 id="사용-언어">사용 언어</h4>
-<p>python, c++, java, javascript</p>
-<h4 id="주석">주석</h4>
-<ul>
-<li>처음에는 게임 클라이언트 개발자로 입사함</li>
-<li>두어달 뒤쯤에 게임 프로젝트 접힘. ㅠㅠ</li>
-<li>서버 프로그래머로 전향</li>
-<li>처음엔 노드로 개발하다가 파이썬으로 변경</li>
-<li>기존 프로젝트를 파이썬으로 포팅하는 작업을 하다가… 노드로 작은 사이트 만들다가…</li>
-<li>일본으로 출장다녀오면서 django 와 만남</li>
-<li>사내 정산 사이트 구축</li>
-</ul>
-</blockquote>
-<h2 id="과거를-돌아보자면">과거를 돌아보자면</h2>
-<blockquote>
-<p>게임 클라이언트 개발 당시에 멀티 해상도 이슈로 고생을 많이 했었음.<br>
-이 때 느낀점은 아, 나는 디자인쪽은 잘하지 못하는구나 느낌.<br>
-서버쪽으로 전향할 당시엔 주변에서 경력이 아깝지 않냐며 걱정함.<br>
-하지만 지금 생각해보면 참 잘한 선택이었다 싶네.<br>
-프론트엔드가 약했었고 상대적으로 백엔드쪽이 재미있었보이더라.<br>
-나름 백엔드쪽에서 하고 싶은 일을 찾음.<br>
-앞으로는 어떻게 될지…</p>
+                <blockquote>
+<p>why be normal?</p>
 </blockquote>
 
 
@@ -285,9 +246,31 @@ cocos2d-x (0.x ~ 3.x)</p>
             
         
             
+            <a href="/tags/#springboot" title="springboot" rel="3">springboot</a>
+            
+        
+            
+            <a href="/tags/#gradle" title="gradle" rel="2">gradle</a>
+            
+        
+            
         
             
             <a href="/tags/#python" title="python" rel="2">python</a>
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
             
         
             
@@ -326,7 +309,7 @@ cocos2d-x (0.x ~ 3.x)</p>
 
             
                 <li>
-                    <a target="_blank" href="https://www.facebook.com/hoguen.yoon">
+                    <a target="_blank" href="https://www.facebook.com/hoguen.yoon" rel="external nofollow noopener noreferrer">
                         <span class="fa-stack fa-lg">
                             <i class="fa fa-circle fa-stack-2x"></i>
                             <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
@@ -337,7 +320,7 @@ cocos2d-x (0.x ~ 3.x)</p>
 
             
                 <li>
-                    <a target="_blank"  href="https://github.com/nevercaution">
+                    <a target="_blank" href="https://github.com/nevercaution" rel="external nofollow noopener noreferrer">
                         <span class="fa-stack fa-lg">
                             <i class="fa fa-circle fa-stack-2x"></i>
                             <i class="fa fa-github fa-stack-1x fa-inverse"></i>
@@ -354,9 +337,21 @@ cocos2d-x (0.x ~ 3.x)</p>
         <hr>
     
         
-  <h5>RECENT POSTS</h3>
+  <h5>RECENT POSTS
   <div class="widget">
     <ul>
+      
+        <li>
+          <a href="/2018/03/24/spring-boot-actuator/">Spring Boot Actuator 를 이용해 버전 정보 제공하기</a>
+        </li>
+      
+        <li>
+          <a href="/2018/03/15/elasticsearch-rest-client/">Spring-boot 에서 Elasticsearch java rest client 사용하기</a>
+        </li>
+      
+        <li>
+          <a href="/2018/02/22/spring-boot-jsp/">spring boot 에서 jsp view 만들기 (feat freemarker)</a>
+        </li>
       
         <li>
           <a href="/2017/06/23/django-orm-standalone/">Django orm standalone feat(docker)</a>
@@ -366,20 +361,12 @@ cocos2d-x (0.x ~ 3.x)</p>
           <a href="/2016/05/06/django-sso/">Django에서 SSO하기</a>
         </li>
       
-        <li>
-          <a href="/2016/03/27/django-ajax/">Django에서 ajax요청하기</a>
-        </li>
-      
-        <li>
-          <a href="/2016/03/11/store-inapp-in-python/">Python에서 iOS, Android 스토어 인앱 결제 검증하기</a>
-        </li>
-      
     </ul>
   </div>
-
+</h5>
         <hr>
     
-        <!-- Friends Blog -->
+        <!-- Categories -->
 
         <hr>
     
@@ -405,7 +392,7 @@ cocos2d-x (0.x ~ 3.x)</p>
 
                 
                     <li>
-                        <a target="_blank" href="https://www.facebook.com/hoguen.yoon">
+                        <a target="_blank" href="https://www.facebook.com/hoguen.yoon" rel="external nofollow noopener noreferrer">
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle fa-stack-2x"></i>
                                 <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
@@ -416,7 +403,7 @@ cocos2d-x (0.x ~ 3.x)</p>
 
                 
                     <li>
-                        <a target="_blank"  href="https://github.com/nevercaution">
+                        <a target="_blank" href="https://github.com/nevercaution" rel="external nofollow noopener noreferrer">
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle fa-stack-2x"></i>
                                 <i class="fa fa-github fa-stack-1x fa-inverse"></i>
@@ -429,17 +416,14 @@ cocos2d-x (0.x ~ 3.x)</p>
 
                 </ul>
                 <p class="copyright text-muted">
-                    Copyright &copy; teddy 2017 
+                    Copyright &copy; teddy 2018 
                     <br>
-                    Theme by <a href="http://huangxuan.me">Hux</a> 
+                    Theme by <a href="http://huangxuan.me" rel="external nofollow noopener noreferrer" target="_blank">Hux</a> 
                     <span style="display: inline-block; margin: 0 5px;">
                         <i class="fa fa-heart"></i>
                     </span> 
-                    re-Ported by <a href="http://beantech.org">BeanTech</a> | 
-                    <iframe
-                        style="margin-left: 2px; margin-bottom:-5px;"
-                        frameborder="0" scrolling="0" width="91px" height="20px"
-                        src="https://ghbtns.com/github-btn.html?user=YenYuHsuan&repo=hexo-theme-beantech&type=star&count=true" >
+                    re-Ported by <a href="http://beantech.org" rel="external nofollow noopener noreferrer" target="_blank">BeanTech</a> | 
+                    <iframe style="margin-left: 2px; margin-bottom:-5px;" frameborder="0" scrolling="0" width="91px" height="20px" src="https://ghbtns.com/github-btn.html?user=YenYuHsuan&repo=hexo-theme-beantech&type=star&count=true">
                     </iframe>
                 </p>
             </div>
@@ -517,7 +501,7 @@ cocos2d-x (0.x ~ 3.x)</p>
 <script>
     // dynamic User by Hux
     var _gaId = 'UA-100815581-1';
-    var _gaDomain = 'https://analytics.google.com/analytics/web/?authuser=0#report/defaultid/a100815581w147829782p152668621/';
+    var _gaDomain = 'nevercaution.github.io';
 
     // Originial
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -531,7 +515,6 @@ cocos2d-x (0.x ~ 3.x)</p>
 
 
 
-
 <!-- Baidu Tongji -->
 
 
@@ -540,10 +523,10 @@ cocos2d-x (0.x ~ 3.x)</p>
 
 
 	<a id="rocket" href="#top" class=""></a>
-	<script type="text/javascript" src="/js/totop.js?v=1.0.0" async=""></script>
-    <script type="text/javascript" src="/js/toc.js?v=1.0.0" async=""></script>
+	<script type="text/javascript" src="/js/totop.js?v=1.0.0" async></script>
+    <script type="text/javascript" src="/js/toc.js?v=1.0.0" async></script>
 <!-- Image to hack wechat -->
-<img src="https://nevercaution.github.io/img/icon_wechat.png" width="0" height="0" />
+<img src="https://nevercaution.github.io/img/icon_wechat.png" width="0" height="0">
 <!-- Migrate from head to bottom, no longer block render and still work -->
 
 </body>
