@@ -7,6 +7,30 @@
     </url>
 
     <url>
+        <loc>https://nevercaution.github.io/2018/12/29/retrofit-with-spring-boot/</loc>
+        <lastmod>2018-12-29T09:19:38.509Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://nevercaution.github.io/2018/07/16/spring-boot-redis-pub-sub/</loc>
+        <lastmod>2018-12-24T04:50:49.960Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://nevercaution.github.io/2018/10/23/api-gateway-with-zuul/</loc>
+        <lastmod>2018-12-24T04:50:49.958Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://nevercaution.github.io/2018/06/17/elasticsearch-java-high-level-client/</loc>
         <lastmod>2018-06-28T12:38:42.678Z</lastmod>
         <changefreq>weekly</changefreq>
