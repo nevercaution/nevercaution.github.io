@@ -1,0 +1,400 @@
+<!DOCTYPE html><html lang="ko"><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><style id="typography.js">html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block}audio:not([controls]){display:none;height:0}progress{vertical-align:baseline}[hidden],template{display:none}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit;font-weight:bolder}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}svg:not(:root){overflow:hidden}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}button,input,optgroup,select,textarea{font:inherit;margin:0}optgroup{font-weight:700}button,input{overflow:visible}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}html{font:100%/1.5 'Noto Sans KR';box-sizing:border-box;overflow-y:scroll;}*{box-sizing:inherit;}*:before{box-sizing:inherit;}*:after{box-sizing:inherit;}body{color:hsla(0,0%,0%,0.8);font-family:'Noto Sans KR';font-weight:300;word-wrap:break-word;font-kerning:normal;-moz-font-feature-settings:"kern", "liga", "clig", "calt";-ms-font-feature-settings:"kern", "liga", "clig", "calt";-webkit-font-feature-settings:"kern", "liga", "clig", "calt";font-feature-settings:"kern", "liga", "clig", "calt";}img{max-width:100%;margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.5rem;}h1{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.5rem;color:inherit;font-family:'Nanum Gothic';font-weight:700;text-rendering:optimizeLegibility;font-size:2rem;line-height:1.1;}h2{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.5rem;color:inherit;font-family:'Nanum Gothic';font-weight:700;text-rendering:optimizeLegibility;font-size:1.51572rem;line-height:1.1;}h3{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.5rem;color:inherit;font-family:'Nanum Gothic';font-weight:700;text-rendering:optimizeLegibility;font-size:1.31951rem;line-height:1.1;}h4{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.5rem;color:inherit;font-family:'Nanum Gothic';font-weight:700;text-rendering:optimizeLegibility;font-size:1rem;line-height:1.1;}h5{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.5rem;color:inherit;font-family:'Nanum Gothic';font-weight:700;text-rendering:optimizeLegibility;font-size:0.87055rem;line-height:1.1;}h6{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.5rem;color:inherit;font-family:'Nanum Gothic';font-weight:700;text-rendering:optimizeLegibility;font-size:0.81225rem;line-height:1.1;}hgroup{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.5rem;}ul{margin-left:1.5rem;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.5rem;list-style-position:outside;list-style-image:none;}ol{margin-left:1.5rem;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.5rem;list-style-position:outside;list-style-image:none;}dl{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.5rem;}dd{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.5rem;}p{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.5rem;}figure{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.5rem;}pre{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.5rem;font-size:0.85rem;line-height:1.5rem;}table{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.5rem;font-size:1rem;line-height:1.5rem;border-collapse:collapse;width:100%;}fieldset{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.5rem;}blockquote{margin-left:1.5rem;margin-right:1.5rem;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.5rem;}form{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.5rem;}noscript{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.5rem;}iframe{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.5rem;}hr{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:calc(1.5rem - 1px);background:hsla(0,0%,0%,0.2);border:none;height:1px;}address{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.5rem;}b{font-weight:500 !important;}strong{font-weight:500 !important;}dt{font-weight:500 !important;}th{font-weight:500 !important;}li{margin-bottom:calc(1.5rem / 2);}ol li{padding-left:0;}ul li{padding-left:0;}li > ol{margin-left:1.5rem;margin-bottom:calc(1.5rem / 2);margin-top:calc(1.5rem / 2);}li > ul{margin-left:1.5rem;margin-bottom:calc(1.5rem / 2);margin-top:calc(1.5rem / 2);}blockquote *:last-child{margin-bottom:0;}li *:last-child{margin-bottom:0;}p *:last-child{margin-bottom:0;}li > p{margin-bottom:calc(1.5rem / 2);}code{font-size:0.85rem;line-height:1.5rem;}kbd{font-size:0.85rem;line-height:1.5rem;}samp{font-size:0.85rem;line-height:1.5rem;}abbr{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;}acronym{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;}abbr[title]{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;text-decoration:none;}thead{text-align:left;}td,th{text-align:left;border-bottom:1px solid hsla(0,0%,0%,0.12);font-feature-settings:"tnum";-moz-font-feature-settings:"tnum";-ms-font-feature-settings:"tnum";-webkit-font-feature-settings:"tnum";padding-left:1rem;padding-right:1rem;padding-top:0.75rem;padding-bottom:calc(0.75rem - 1px);}th:first-child,td:first-child{padding-left:0;}th:last-child,td:last-child{padding-right:0;}</style><style data-href="/styles.fc2ddc51cd1661b6022b.css">code[class*=language-],pre[class*=language-]{color:#ccc;background:none;font-family:Consolas,Monaco,Andale Mono,Ubuntu Mono,monospace;font-size:1em;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-hyphens:none;-ms-hyphens:none;hyphens:none}pre[class*=language-]{padding:1em;margin:.5em 0;overflow:auto}:not(pre)>code[class*=language-],pre[class*=language-]{background:#2d2d2d}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal}.token.block-comment,.token.cdata,.token.comment,.token.doctype,.token.prolog{color:#999}.token.punctuation{color:#ccc}.token.attr-name,.token.deleted,.token.namespace,.token.tag{color:#e2777a}.token.function-name{color:#6196cc}.token.boolean,.token.function,.token.number{color:#f08d49}.token.class-name,.token.constant,.token.property,.token.symbol{color:#f8c555}.token.atrule,.token.builtin,.token.important,.token.keyword,.token.selector{color:#cc99cd}.token.attr-value,.token.char,.token.regex,.token.string,.token.variable{color:#7ec699}.token.entity,.token.operator,.token.url{color:#67cdcc}.token.bold,.token.important{font-weight:700}.token.italic{font-style:italic}.token.entity{cursor:help}.token.inserted{color:green}
+
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */html{line-height:1.15;-webkit-text-size-adjust:100%}main{display:block}h1{font-size:2em;margin:.67em 0}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent}abbr[title]{border-bottom:none;text-decoration:underline;-webkit-text-decoration:underline dotted;text-decoration:underline dotted}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details{display:block}summary{display:list-item}[hidden],template{display:none}.svg-inline--fa,svg:not(:root).svg-inline--fa{overflow:visible}.svg-inline--fa{display:inline-block;font-size:inherit;height:1em;vertical-align:-.125em}.svg-inline--fa.fa-lg{vertical-align:-.225em}.svg-inline--fa.fa-w-1{width:.0625em}.svg-inline--fa.fa-w-2{width:.125em}.svg-inline--fa.fa-w-3{width:.1875em}.svg-inline--fa.fa-w-4{width:.25em}.svg-inline--fa.fa-w-5{width:.3125em}.svg-inline--fa.fa-w-6{width:.375em}.svg-inline--fa.fa-w-7{width:.4375em}.svg-inline--fa.fa-w-8{width:.5em}.svg-inline--fa.fa-w-9{width:.5625em}.svg-inline--fa.fa-w-10{width:.625em}.svg-inline--fa.fa-w-11{width:.6875em}.svg-inline--fa.fa-w-12{width:.75em}.svg-inline--fa.fa-w-13{width:.8125em}.svg-inline--fa.fa-w-14{width:.875em}.svg-inline--fa.fa-w-15{width:.9375em}.svg-inline--fa.fa-w-16{width:1em}.svg-inline--fa.fa-w-17{width:1.0625em}.svg-inline--fa.fa-w-18{width:1.125em}.svg-inline--fa.fa-w-19{width:1.1875em}.svg-inline--fa.fa-w-20{width:1.25em}.svg-inline--fa.fa-pull-left{margin-right:.3em;width:auto}.svg-inline--fa.fa-pull-right{margin-left:.3em;width:auto}.svg-inline--fa.fa-border{height:1.5em}.svg-inline--fa.fa-li{width:2em}.svg-inline--fa.fa-fw{width:1.25em}.fa-layers svg.svg-inline--fa{bottom:0;left:0;margin:auto;position:absolute;right:0;top:0}.fa-layers{display:inline-block;height:1em;position:relative;text-align:center;vertical-align:-.125em;width:1em}.fa-layers svg.svg-inline--fa{-webkit-transform-origin:center center;transform-origin:center center}.fa-layers-counter,.fa-layers-text{display:inline-block;position:absolute;text-align:center}.fa-layers-text{left:50%;top:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);-webkit-transform-origin:center center;transform-origin:center center}.fa-layers-counter{background-color:#ff253a;border-radius:1em;box-sizing:border-box;color:#fff;height:1.5em;line-height:1;max-width:5em;min-width:1.5em;overflow:hidden;padding:.25em;right:0;text-overflow:ellipsis;top:0;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:top right;transform-origin:top right}.fa-layers-bottom-right{bottom:0;right:0;top:auto;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:bottom right;transform-origin:bottom right}.fa-layers-bottom-left{bottom:0;left:0;right:auto;top:auto;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:bottom left;transform-origin:bottom left}.fa-layers-top-right{right:0;top:0;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:top right;transform-origin:top right}.fa-layers-top-left{left:0;right:auto;top:0;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:top left;transform-origin:top left}.fa-lg{font-size:1.33333em;line-height:.75em;vertical-align:-.0667em}.fa-xs{font-size:.75em}.fa-sm{font-size:.875em}.fa-1x{font-size:1em}.fa-2x{font-size:2em}.fa-3x{font-size:3em}.fa-4x{font-size:4em}.fa-5x{font-size:5em}.fa-6x{font-size:6em}.fa-7x{font-size:7em}.fa-8x{font-size:8em}.fa-9x{font-size:9em}.fa-10x{font-size:10em}.fa-fw{text-align:center;width:1.25em}.fa-ul{list-style-type:none;margin-left:2.5em;padding-left:0}.fa-ul>li{position:relative}.fa-li{left:-2em;position:absolute;text-align:center;width:2em;line-height:inherit}.fa-border{border:.08em solid #eee;border-radius:.1em;padding:.2em .25em .15em}.fa-pull-left{float:left}.fa-pull-right{float:right}.fa.fa-pull-left,.fab.fa-pull-left,.fal.fa-pull-left,.far.fa-pull-left,.fas.fa-pull-left{margin-right:.3em}.fa.fa-pull-right,.fab.fa-pull-right,.fal.fa-pull-right,.far.fa-pull-right,.fas.fa-pull-right{margin-left:.3em}.fa-spin{-webkit-animation:fa-spin 2s linear infinite;animation:fa-spin 2s linear infinite}.fa-pulse{-webkit-animation:fa-spin 1s steps(8) infinite;animation:fa-spin 1s steps(8) infinite}@-webkit-keyframes fa-spin{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}to{-webkit-transform:rotate(1turn);transform:rotate(1turn)}}@keyframes fa-spin{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}to{-webkit-transform:rotate(1turn);transform:rotate(1turn)}}.fa-rotate-90{-ms-filter:"progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";-webkit-transform:rotate(90deg);transform:rotate(90deg)}.fa-rotate-180{-ms-filter:"progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";-webkit-transform:rotate(180deg);transform:rotate(180deg)}.fa-rotate-270{-ms-filter:"progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";-webkit-transform:rotate(270deg);transform:rotate(270deg)}.fa-flip-horizontal{-ms-filter:"progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)";-webkit-transform:scaleX(-1);transform:scaleX(-1)}.fa-flip-vertical{-webkit-transform:scaleY(-1);transform:scaleY(-1)}.fa-flip-both,.fa-flip-horizontal.fa-flip-vertical,.fa-flip-vertical{-ms-filter:"progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)"}.fa-flip-both,.fa-flip-horizontal.fa-flip-vertical{-webkit-transform:scale(-1);transform:scale(-1)}:root .fa-flip-both,:root .fa-flip-horizontal,:root .fa-flip-vertical,:root .fa-rotate-90,:root .fa-rotate-180,:root .fa-rotate-270{-webkit-filter:none;filter:none}.fa-stack{display:inline-block;height:2em;position:relative;width:2.5em}.fa-stack-1x,.fa-stack-2x{bottom:0;left:0;margin:auto;position:absolute;right:0;top:0}.svg-inline--fa.fa-stack-1x{height:1em;width:1.25em}.svg-inline--fa.fa-stack-2x{height:2em;width:2.5em}.fa-inverse{color:#fff}.sr-only{border:0;clip:rect(0,0,0,0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.sr-only-focusable:active,.sr-only-focusable:focus{clip:auto;height:auto;margin:0;overflow:visible;position:static;width:auto}.blog-post-container{margin-top:3rem}@media screen and (max-width:70em){.blog-post-container{margin-top:2rem}}@media screen and (max-width:50em){.blog-post-container{margin-top:1rem}}.blog-post-container .blog-post .post-header{text-align:center;margin-bottom:6rem}.blog-post-container .blog-post .post-header .title{color:#424242;font-size:1.4rem}.blog-post-container .blog-post .post-header>:nth-child(3){border-left:1px solid #00ce9f}.blog-post-container .blog-post .post-header .date,.blog-post-container .blog-post .post-header .tags{display:inline-block;padding:0 .5rem;color:#666}.blog-post-container .blog-post .post-header .tags a{margin-right:.5rem;color:#666}.blog-post-container .blog-post .blog-post-content h1,.blog-post-container .blog-post .blog-post-content h2,.blog-post-container .blog-post .blog-post-content h3{margin-bottom:1rem}.blog-post-container .blog-post .blog-post-content h1,.blog-post-container .blog-post .blog-post-content h2{border-left:.2rem solid #00ce9f;padding-left:.5rem}.blog-post-container .blog-post .blog-post-content h1,.blog-post-container .blog-post .blog-post-content h2{margin-top:5rem}.blog-post-container .blog-post .blog-post-content h3{margin-top:2rem}.blog-post-container .blog-post .blog-post-content>div,.blog-post-container .blog-post .blog-post-content>h3,.blog-post-container .blog-post .blog-post-content>h4,.blog-post-container .blog-post .blog-post-content>p{padding-left:.7rem}@media screen and (max-width:50em){.blog-post-container .blog-post .blog-post-content>div,.blog-post-container .blog-post .blog-post-content>h3,.blog-post-container .blog-post .blog-post-content>h4,.blog-post-container .blog-post .blog-post-content>p{padding-left:0}}.blog-post-container .blog-post .blog-post-content hr{border-bottom:1px solid #00ce9f;margin:1rem 0}.blog-post-container .blog-post .blog-post-content pre{font-size:.9rem}.blog-post-container .blog-post .blog-post-content pre>code a{color:#ccc}.blog-post-container .blog-post-nav{display:flex;margin:10rem 0 2rem}.blog-post-container .blog-post-nav>div{flex-grow:1}.blog-post-container .blog-post-nav>div .nav-wrap{display:flex;padding:.5rem 1rem}.blog-post-container .blog-post-nav>div .nav-wrap .angle{align-self:center}.blog-post-container .blog-post-nav>div .nav-wrap>a{color:#424242;flex-grow:1;align-self:center;padding:.5rem 1rem}.blog-post-container .blog-post-nav>div .nav-wrap>a p{margin:0 0 .5rem}.blog-post-container .blog-post-nav>div .nav-wrap>a span{font-weight:700}.blog-post-container .blog-post-nav>div .nav-wrap>a:hover{color:#00ce9f}.blog-post-container .blog-post-nav .prev{text-align:left}.blog-post-container .blog-post-nav .next{text-align:right}.blog-post-container .blog-post-nav>div:nth-child(2){border-left:1px solid #00ce9f}.comments{margin-top:3rem}.comments a{color:#424242}.tag-wrap{margin-bottom:3rem;padding:1rem}.tag-wrap .tag-list{display:flex;flex-wrap:wrap}.tag-wrap .tag-list .tag{list-style:none;background-color:#00ce9f;color:#fff;padding:.25rem .5rem;margin-right:1rem;margin-bottom:1rem;border-radius:3px;cursor:pointer}.tag-wrap .tag-list .tag .tag-name{font-size:1rem;margin-right:.5rem}.tag-wrap .tag-list .tag .tag-count{color:#d3d3d3}.tag-wrap .tag-load{text-align:center;-webkit-transition:.3s;transition:.3s;border-radius:3px;border:1px solid #00ce9f}.tag-wrap .tag-load:hover{cursor:pointer;background-color:#00ce9f;color:#fff}html{background-color:#fff;line-height:1.666!important}html a{text-decoration:none}@media screen and (max-width:50em){html{font-size:.9rem}}.pointer-event-disable{pointer-events:none!important}#wrap{display:flex;flex-direction:column;padding-top:5rem;min-height:100vh;background-color:#fff}@media screen and (max-width:70em){#wrap{padding-top:5rem}}@media screen and (max-width:50em){#wrap{padding-top:3rem}}#header{display:flex;position:fixed;top:0;z-index:99;min-width:100%;height:5rem;box-sizing:border-box;flex-direction:row;background-color:#fff;padding:0 10%;align-items:center;border-bottom:1px solid #00ce9f;border-top:0;box-shadow:0 .5rem .5rem -.5rem #d3d3d3}@media screen and (max-width:70em){#header{padding:0 5%;height:5rem}}@media screen and (max-width:50em){#header{padding:0 1rem;height:3rem}}#header a{color:#424242}#header .title{display:flex;padding:0;margin:0}#header .title .title-wrap,#header .title .title-wrap>a{max-height:inherit;height:inherit}#header .title .title-wrap>a{display:flex;min-height:100%;flex-grow:1;flex-direction:row;border-bottom:0;border-top:0;align-items:center}#header .title .title-wrap>a .logo-img{height:3rem;width:3rem;margin-right:.5rem;padding:.1rem;margin-bottom:.1rem}@media screen and (max-width:50em){#header .title .title-wrap>a .logo-img{height:1.5rem;width:1.5rem;margin-right:.1rem;margin-bottom:0}}#header .title .title-wrap>a .logo-img img{opacity:.7;margin:0;padding:2px;-webkit-transition:.3s;transition:.3s;border:1px solid #424242;border-radius:100%}@media screen and (max-width:50em){#header .title .title-wrap>a .logo-img img{padding:1px}}#header .title .title-wrap>a .logo-img img:hover{opacity:1}@media screen and (max-width:50em){#header .title .title-wrap>a .bio{display:none}}#header .title .title-wrap>a>div h1,#header .title .title-wrap>a>div p{margin:0}#header .title .title-wrap>a>div h1{font-size:1.2rem}#header .menu{display:flex;flex-grow:1;flex-direction:row;font-size:1.1rem;justify-content:flex-end;margin-top:1rem}@media screen and (max-width:50em){#header .menu{margin-top:0}}#header .menu>div{margin-left:1.5rem;-webkit-transition:all .1s ease-in-out;transition:all .1s ease-in-out}@media screen and (max-width:50em){#header .menu>div span{display:none}}#header .menu>div:hover{-webkit-transform:scale(1.1);transform:scale(1.1)}#header .menu>div span{margin-left:.1rem}#article{color:#424242;width:70vw;margin:0 15vw;padding:2rem}@media screen and (max-width:70em){#article{width:80vw;margin:0 10vw;padding:1.5rem}}@media screen and (max-width:50em){#article{width:95vw;margin:0 2.5vw;padding:1rem}}#footer{display:flex;min-height:2rem;max-height:4rem;align-items:center;border-top:1px solid #00ce9f;padding:0 2rem}@media screen and (max-width:50em){#footer{text-align:center}}#footer .copyright{font-size:1rem;color:#424242;flex-grow:1}#footer .copyright a{color:#424242}#PostList .list-title{margin:0;text-align:center;font-size:1.75rem}@media screen and (max-width:70em){#PostList .list-title{font-size:1.5rem}}#PostList .list{display:flex;flex-direction:column}#PostList .load .loading{padding:5rem 0;text-align:center}#PostList .load .load-point{height:1px}#PostList .blink{-webkit-animation:blink-animation .5s infinite alternate;animation:blink-animation .5s infinite alternate}@-webkit-keyframes blink-animation{0%{color:#00ce9f}to{color:#d3d3d3}}@keyframes blink-animation{0%{color:#00ce9f}to{color:#d3d3d3}}.post-link{padding:4rem 0;border-bottom:1px solid #00ce9f}@media screen and (max-width:70em){.post-link{padding:3rem 0}}@media screen and (max-width:50em){.post-link{padding:2rem 0}}.post-link a{color:#424242;text-decoration:none}.post-link a:hover{color:#00ce9f}.post-link .title{display:inline-block;margin-bottom:.5rem;font-size:1.2rem}.post-link .sub{display:flex;font-size:.9rem;margin-bottom:.75rem;align-items:center;color:#666}.post-link .sub a{color:#666}.post-link .sub .date{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;margin-right:.5rem}.post-link .sub .date span{margin-left:.2rem}.post-link .sub .tags-list{display:flex;flex-direction:row;border-left:1px solid #00ce9f}.post-link .sub .tags-list .tag{margin:0 .5rem}.post-link .excerpt{display:block;color:#4d5256;word-break:break-all}.hover{-webkit-transition:.3s;transition:.3s}.hover:hover{color:#00ce9f}body{padding:0;margin:0}</style><meta name="generator" content="Gatsby 2.11.5"/><title data-react-helmet="true">API Gateway 구축하기 - Spring Cloud Zuul</title><link data-react-helmet="true" href="https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700|Noto+Sans+KR:300,500" rel="stylesheet"/><meta data-react-helmet="true" name="description" content="작은일기장"/><meta data-react-helmet="true" name="og:type" content="website"/><meta data-react-helmet="true" name="og:image" content="/static/profile-e34bd6d101164550ff507bc97220db1c.png"/><meta data-react-helmet="true" name="og:url"/><meta data-react-helmet="true" name="keywords" content="netflix-zuul,springboot,spring-cloud,api-gateway,netfilix zuul,api gateway"/><meta data-react-helmet="true" name="og:title" content="API Gateway 구축하기 - Spring Cloud Zuul"/><meta data-react-helmet="true" name="og:description" content="api gatway 를 도입했다. 레거시 프로젝트를 정리하면서 msa 구조로 가게 되었고 필요에 따라 서비스들이 나뉘고 있어서 이를 한곳에서 관리해줄 필요가 있었다. 구조를 설계하면서 어느 레벨까지를 gateway…"/><script data-react-helmet="true" async="" src="https://www.googletagmanager.com/gtag/js?id=UA-100815581-1"></script><script data-react-helmet="true">
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', 'UA-100815581-1');
+              </script><script data-react-helmet="true" async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><link rel="sitemap" type="application/xml" href="/sitemap.xml"/><link rel="preconnect dns-prefetch" href="https://www.google-analytics.com"/><link as="script" rel="preload" href="/webpack-runtime-d5b5090a847dfac9f666.js"/><link as="script" rel="preload" href="/app-800517ac858ff5ad0ec8.js"/><link as="script" rel="preload" href="/styles-8d5d13a588417b7a006c.js"/><link as="script" rel="preload" href="/1-429fd5cf19a86b5db8f8.js"/><link as="script" rel="preload" href="/2-d7aa2ab8dc087abd26cb.js"/><link as="script" rel="preload" href="/component---src-templates-blog-post-index-js-bc483ec05fb89c66dc3e.js"/><link as="fetch" rel="preload" href="/page-data/api-gateway-with-zuul/page-data.json" crossorigin="use-credentials"/></head><body><noscript id="gatsby-noscript">This app works best with JavaScript enabled.</noscript><div id="___gatsby"><div style="outline:none" tabindex="-1" role="group"><div id="wrap"><header id="header"><div class="title"><div class="title-wrap"><a href="/"><div class="logo-img" style="display:inline-block"><img src="/static/profile-e34bd6d101164550ff507bc97220db1c.png" alt="logo"/></div><div><h1>nevercaution</h1><p class="bio">Why be normal?</p></div></a></div></div><div class="menu"><div class="home"><a href="/"><span>Home</span></a></div><div class="develop"><a href="/develop"><span>Develop</span></a></div><div class="diary"><a href="/diary"><span>Diary</span></a></div><div class="review"><a href="/review"><span>Review</span></a></div><div class="tags"><a href="/tags"><span>Tags</span></a></div></div></header><article id="article"><div class="blog-post-container"><div class="blog-post"><div class="post-header"><h1 class="title">API Gateway 구축하기 - Spring Cloud Zuul</h1><div class="date"><svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="calendar-alt" class="svg-inline--fa fa-calendar-alt fa-w-14 fa-fw " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M148 288h-40c-6.6 0-12-5.4-12-12v-40c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12zm108-12v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm96 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm-96 96v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm-96 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm192 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm96-260v352c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V112c0-26.5 21.5-48 48-48h48V12c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v52h128V12c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v52h48c26.5 0 48 21.5 48 48zm-48 346V160H48v298c0 3.3 2.7 6 6 6h340c3.3 0 6-2.7 6-6z"></path></svg>2018-10-23</div><div class="tags"><a href="/tags/netflix-zuul">#<!-- -->netflix-zuul</a><a href="/tags/springboot">#<!-- -->springboot</a><a href="/tags/spring-cloud">#<!-- -->spring-cloud</a><a href="/tags/api-gateway">#<!-- -->api-gateway</a></div></div><div class="blog-post-content"><p>api gatway 를 도입했다. 레거시 프로젝트를 정리하면서 msa 구조로 가게 되었고 필요에 따라 서비스들이 나뉘고 있어서 이를 한곳에서 관리해줄 필요가 있었다. 구조를 설계하면서 어느 레벨까지를 gateway 에서 처리할지에 대해 여러 고민이 있었고 너무나 크지 않은 선에서 일차적으로 도입을 하게 되었다.
+gateway 를 구성하기 위해 아래의 3개의 프로젝트를 설정한다.</p>
+<ol>
+<li>라우팅을 해줄 gateway (zuul gateway)</li>
+<li>gateway 와 zuul 설정을 연결해줄 중간자 (spring cloud config)</li>
+<li>zuul 설정을 저장할 저장소 (git)</li>
+</ol>
+<h3>1. gateway 구성</h3>
+<p>springboot, gradle 로 구성을 했고 버전은 2를 사용한다. spring cloud zuul 도 있지만 버전2에서는 아직 추가되지 않아 netflix zuul 을 사용하기로 한다.</p>
+<h4>빌드 설정</h4>
+<p><code class="language-text">build.gradle</code></p>
+<div class="gatsby-highlight" data-language="gradle">
+      <pre class="language-gradle"><code class="language-gradle">buildscript {
+    ext {
+        springBootVersion = &#39;2.0.6.RELEASE&#39;
+    }
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath(&quot;org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}&quot;)
+    }
+}
+
+apply plugin: &#39;java&#39;
+apply plugin: &#39;eclipse&#39;
+apply plugin: &#39;groovy&#39;
+apply plugin: &#39;org.springframework.boot&#39;
+apply plugin: &#39;io.spring.dependency-management&#39;
+
+group = &#39;com.nevercaution&#39;
+version = &#39;0.0.1-SNAPSHOT&#39;
+sourceCompatibility = 1.8
+
+dependencies {
+    compile(&#39;org.springframework.cloud:spring-cloud-starter-netflix-zuul&#39;)
+    compile(&#39;org.springframework.cloud:spring-cloud-starter-config&#39;)
+    compile(&#39;org.codehaus.groovy:groovy-all&#39;)
+    compile(&#39;com.googlecode.json-simple:json-simple&#39;)
+
+    testCompile(&#39;org.springframework.boot:spring-boot-starter-test&#39;)
+
+}
+
+dependencyManagement {
+    imports {
+        mavenBom &quot;org.springframework.cloud:spring-cloud-dependencies:Finchley.SR1&quot;
+    }
+}</code></pre>
+      </div>
+<h4>프로젝트 설정</h4>
+<div class="gatsby-highlight" data-language="text">
+      <pre class="language-text"><code class="language-text">spring-cloud 를 사용할 때엔 application.yml 보다 bootstrap.yml 을 먼저 읽어 들인다.
+먼저 읽은 값을 기반으로 application.yml 에 설정된 값들을 함께 사용하기 위함이다.</code></pre>
+      </div>
+<p>application.name 과 spring.profiles.active 두 값으로 cloud config 에 정보를 요청한다. 이 값을 적지 않을 경우엔 값을 가져오지 못한다. 또한 profiles.active 를 명시해주지 않으면 기본적으로 default profile 로 로드를 시도한다.</p>
+<p><code class="language-text">bootstrap.yml</code></p>
+<div class="gatsby-highlight" data-language="yml">
+      <pre class="language-yml"><code class="language-yml">spring:
+  profiles:
+    active: local
+  # 이 이름으로 spring cloud config server 에서 정보를 가져온다.
+  application:
+    name: gateway
+
+---
+########################################
+###              local               ###
+########################################
+spring:
+  profiles: local
+  cloud:
+    config:
+      uri: http://localhost:8889
+---</code></pre>
+      </div>
+<p>spring-cloud 에서 zuul route 설정들을 받아온다. 만약 spring-cloud 가 죽었을 경우를 대비해야 한다면 route 설정값들을 application.yml 에 해주면 된다.
+참고로 spring-cloud-config 기본 주소는 localhost:8888 이다. 즉 8888포트로 사용할 거라면 따로 설정하지 않아도 기본으로 이 주소로 접근을 시도한다. 원하는 경로로 사용할 경우에는 반드시 명시해주어야 한다.</p>
+<p>필요에 따라 zuul 설정을 여기에서 해줘도 된다. 만약 cloud config 에서 값을 읽어들이지 못할 경우엔 여기에 있는 값을 사용하게 된다.</p>
+<p><code class="language-text">application.yml</code></p>
+<div class="gatsby-highlight" data-language="yml">
+      <pre class="language-yml"><code class="language-yml">spring:
+  # groovy template 는 사용하지 않는다.
+  groovy:
+    template:
+      cache: false
+
+
+# 필요한 actuator end point 만 열어둔다.
+management:
+  endpoints:
+    web:
+      exposure:
+        # 원하는 endpoint 를 추가할 수 있다.
+        include: info, routes, filters, refresh
+
+
+---
+########################################
+###              local               ###
+########################################
+spring:
+  profiles: local
+
+server:
+  port: 8087
+
+# 여기서 설정도 가능하다. 우선순위는 cloud config 가 더 높다.
+#zuul:
+#  routes:
+#    apiService:
+#      stripPrefix: false
+#      path: /api/**
+#      url: https://new-api-service.com
+---</code></pre>
+      </div>
+<p>application 에 @EnableZuulProxy 만 달아주면 gateway는 설정이 모두 끝난다.</p>
+<p><code class="language-text">GatewayApplication.java</code></p>
+<div class="gatsby-highlight" data-language="java">
+      <pre class="language-java"><code class="language-java"><span class="token keyword">import</span> <span class="token namespace">org<span class="token punctuation">.</span>springframework<span class="token punctuation">.</span>boot</span><span class="token punctuation">.</span><span class="token class-name">SpringApplication</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> <span class="token namespace">org<span class="token punctuation">.</span>springframework<span class="token punctuation">.</span>boot<span class="token punctuation">.</span>autoconfigure</span><span class="token punctuation">.</span><span class="token class-name">SpringBootApplication</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> <span class="token namespace">org<span class="token punctuation">.</span>springframework<span class="token punctuation">.</span>cloud<span class="token punctuation">.</span>netflix<span class="token punctuation">.</span>zuul</span><span class="token punctuation">.</span><span class="token class-name">EnableZuulProxy</span><span class="token punctuation">;</span>
+
+<span class="token annotation punctuation">@EnableZuulProxy</span>  <span class="token comment">// 이 annotation 만 추가하면 된다.</span>
+<span class="token annotation punctuation">@SpringBootApplication</span>
+<span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">GatewayApplication</span> <span class="token punctuation">{</span>
+
+    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token class-name">String</span><span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token class-name">SpringApplication</span><span class="token punctuation">.</span><span class="token function">run</span><span class="token punctuation">(</span><span class="token class-name">GatewayApplication</span><span class="token punctuation">.</span><span class="token keyword">class</span><span class="token punctuation">,</span> args<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span></code></pre>
+      </div>
+<h3>2. spring-cloud-config-server 설정</h3>
+<p>config-server 는 cloud-config 에 저장되어있는 설정들을 gateway 들이 가져갈 수 있도록 중간에서 설정값을 가져오는 역할을 한다.</p>
+<h4>빌드설정</h4>
+<p><code class="language-text">build.gradle</code></p>
+<div class="gatsby-highlight" data-language="gradle">
+      <pre class="language-gradle"><code class="language-gradle">buildscript {
+    ext {
+        springBootVersion = &#39;2.0.6.RELEASE&#39;
+    }
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath(&quot;org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}&quot;)
+    }
+}
+
+apply plugin: &#39;java&#39;
+apply plugin: &#39;eclipse&#39;
+apply plugin: &#39;org.springframework.boot&#39;
+apply plugin: &#39;io.spring.dependency-management&#39;
+
+group = &#39;com.nevercaution&#39;
+version = &#39;0.0.1-SNAPSHOT&#39;
+sourceCompatibility = 1.8
+
+ext {
+    springCloudVersion = &#39;Finchley.SR1&#39;
+}
+
+dependencies {
+    compile(&#39;org.springframework.cloud:spring-cloud-config-server&#39;)
+    testCompile(&#39;org.springframework.boot:spring-boot-starter-test&#39;)
+}
+
+dependencyManagement {
+    imports {
+        mavenBom &quot;org.springframework.cloud:spring-cloud-dependencies:${springCloudVersion}&quot;
+    }
+}</code></pre>
+      </div>
+<h4>프로젝트 설정</h4>
+<p><code class="language-text">application.yml</code></p>
+<div class="gatsby-highlight" data-language="yml">
+      <pre class="language-yml"><code class="language-yml">server:
+  port: 8889
+
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/user/cloud-config/config.git
+          username: username
+          password: password</code></pre>
+      </div>
+<p>config-server 역시 application 에 @EnableConfigServer 달아주면 끝.
+gateway 에서 필요한 값들은 config.git 에서 받아온다.</p>
+<p><code class="language-text">Application.java</code></p>
+<div class="gatsby-highlight" data-language="java">
+      <pre class="language-java"><code class="language-java"><span class="token keyword">import</span> <span class="token namespace">org<span class="token punctuation">.</span>springframework<span class="token punctuation">.</span>boot</span><span class="token punctuation">.</span><span class="token class-name">SpringApplication</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> <span class="token namespace">org<span class="token punctuation">.</span>springframework<span class="token punctuation">.</span>boot<span class="token punctuation">.</span>autoconfigure</span><span class="token punctuation">.</span><span class="token class-name">SpringBootApplication</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> <span class="token namespace">org<span class="token punctuation">.</span>springframework<span class="token punctuation">.</span>cloud<span class="token punctuation">.</span>config<span class="token punctuation">.</span>server</span><span class="token punctuation">.</span><span class="token class-name">EnableConfigServer</span><span class="token punctuation">;</span>
+
+<span class="token annotation punctuation">@EnableConfigServer</span>  <span class="token comment">// 이 annotation 만 적어주면 끝.</span>
+<span class="token annotation punctuation">@SpringBootApplication</span>
+<span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">MimirApplication</span> <span class="token punctuation">{</span>
+
+    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token class-name">String</span><span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token class-name">SpringApplication</span><span class="token punctuation">.</span><span class="token function">run</span><span class="token punctuation">(</span><span class="token class-name">MimirApplication</span><span class="token punctuation">.</span><span class="token keyword">class</span><span class="token punctuation">,</span> args<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span></code></pre>
+      </div>
+<h3>3. config 설정</h3>
+<p>cloud-config 는 gateway 에서 사용할 zuul 에 관련된 설정들을 모아놓는 곳이다.</p>
+<p><code class="language-text">gateway.yml</code></p>
+<div class="gatsby-highlight" data-language="yml">
+      <pre class="language-yml"><code class="language-yml">---
+########################################
+###              local               ###
+########################################
+spring:
+  profiles: local
+
+# zuul route 설정들.
+zuul:
+  routes:
+    apiService:
+      stripPrefix: false
+      path: /api/**
+      url: https://new-api-service.com
+
+# groovy filter 가 있는 경로를 적어준다.
+gateway:
+  zuul:
+    filters:
+      base-path: /path/to/filter/
+---</code></pre>
+      </div>
+<h3>정리하자면</h3>
+<p>gateway 에서는 zuul route 설정들을 이용해서 요청들을 받아서 처리해준다.
+gateway 에서 route 설정들을 받아오기 위해서 spring-cloud-server 에 spring-cloud-config 정보를 요청한다.
+spring-cloud-server 에서는 spring-cloud-config 에 있는 정보를 조회해서 gateway 에 내려준다.</p>
+<h3>zuul filter 사용</h3>
+<p>특정 상황에 대처하기 위해 필터를 걸 수 있다. java 로 추가할 수도 있지만 내용이 변경시 서비스가 재기동되어야 하기 때문에 groovy 로 필터를 사용한다.
+gateway 에서는 지정된 경로에 groovy filter 들을 로드 시킨다.
+gateway 에서 gateway.zuul.filters.base-path 이 값은 spring-cloud-config 에서 받아와서 로드한다.
+FileManager.init 에서 첫번째 파라미터는 이 경로에 몇초마다 파일들을 갱신할지 여부이다. 짧게 가져갈수록 부하가 있지만 대신 코드가 빠르게 적용된다.</p>
+<p><code class="language-text">ZuulFilterCommandLineRunner.java</code></p>
+<div class="gatsby-highlight" data-language="java">
+      <pre class="language-java"><code class="language-java"><span class="token keyword">import</span> <span class="token namespace">com<span class="token punctuation">.</span>netflix<span class="token punctuation">.</span>zuul</span><span class="token punctuation">.</span><span class="token class-name">FilterFileManager</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> <span class="token namespace">com<span class="token punctuation">.</span>netflix<span class="token punctuation">.</span>zuul</span><span class="token punctuation">.</span><span class="token class-name">FilterLoader</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> <span class="token namespace">com<span class="token punctuation">.</span>netflix<span class="token punctuation">.</span>zuul<span class="token punctuation">.</span>groovy</span><span class="token punctuation">.</span><span class="token class-name">GroovyCompiler</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> <span class="token namespace">com<span class="token punctuation">.</span>netflix<span class="token punctuation">.</span>zuul<span class="token punctuation">.</span>groovy</span><span class="token punctuation">.</span><span class="token class-name">GroovyFileFilter</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> <span class="token namespace">org<span class="token punctuation">.</span>slf4j</span><span class="token punctuation">.</span><span class="token class-name">Logger</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> <span class="token namespace">org<span class="token punctuation">.</span>slf4j</span><span class="token punctuation">.</span><span class="token class-name">LoggerFactory</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> <span class="token namespace">org<span class="token punctuation">.</span>springframework<span class="token punctuation">.</span>beans<span class="token punctuation">.</span>factory<span class="token punctuation">.</span>annotation</span><span class="token punctuation">.</span><span class="token class-name">Value</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> <span class="token namespace">org<span class="token punctuation">.</span>springframework<span class="token punctuation">.</span>boot</span><span class="token punctuation">.</span><span class="token class-name">CommandLineRunner</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> <span class="token namespace">org<span class="token punctuation">.</span>springframework<span class="token punctuation">.</span>stereotype</span><span class="token punctuation">.</span><span class="token class-name">Component</span><span class="token punctuation">;</span>
+
+<span class="token annotation punctuation">@Component</span>
+<span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">ZuulFilterCommandLineRunner</span> <span class="token keyword">implements</span> <span class="token class-name">CommandLineRunner</span> <span class="token punctuation">{</span>
+    <span class="token keyword">private</span> <span class="token keyword">static</span> <span class="token class-name">Logger</span> log <span class="token operator">=</span> <span class="token class-name">LoggerFactory</span><span class="token punctuation">.</span><span class="token function">getLogger</span><span class="token punctuation">(</span><span class="token class-name">ZuulFilterCommandLineRunner</span><span class="token punctuation">.</span><span class="token keyword">class</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+    <span class="token comment">// cloud config 에 정의된 경로에서 로드한다.</span>
+    <span class="token annotation punctuation">@Value</span><span class="token punctuation">(</span><span class="token string">"${gateway.zuul.filters.base-path}"</span><span class="token punctuation">)</span>
+    <span class="token keyword">private</span> <span class="token class-name">String</span> filterBasePath<span class="token punctuation">;</span>
+
+    <span class="token annotation punctuation">@Override</span>
+    <span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">run</span><span class="token punctuation">(</span><span class="token class-name">String</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span> args<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token class-name">FilterLoader</span><span class="token punctuation">.</span><span class="token function">getInstance</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">setCompiler</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">GroovyCompiler</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">try</span> <span class="token punctuation">{</span>
+            log<span class="token punctuation">.</span><span class="token function">debug</span><span class="token punctuation">(</span><span class="token string">"load try file : "</span> <span class="token operator">+</span> filterBasePath<span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token class-name">FilterFileManager</span><span class="token punctuation">.</span><span class="token function">setFilenameFilter</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">GroovyFileFilter</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token class-name">FilterFileManager</span><span class="token punctuation">.</span><span class="token function">init</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token keyword">this</span><span class="token punctuation">.</span>filterBasePath <span class="token operator">+</span> <span class="token string">"pre"</span><span class="token punctuation">,</span> <span class="token keyword">this</span><span class="token punctuation">.</span>filterBasePath <span class="token operator">+</span> <span class="token string">"route"</span><span class="token punctuation">,</span> <span class="token keyword">this</span><span class="token punctuation">.</span>filterBasePath <span class="token operator">+</span> <span class="token string">"post"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span> <span class="token keyword">catch</span> <span class="token punctuation">(</span><span class="token class-name">Exception</span> e<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            log<span class="token punctuation">.</span><span class="token function">error</span><span class="token punctuation">(</span><span class="token string">"load fail "</span> <span class="token operator">+</span> filterBasePath<span class="token punctuation">,</span> e<span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token keyword">throw</span> <span class="token keyword">new</span> <span class="token class-name">RuntimeException</span><span class="token punctuation">(</span>e<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span></code></pre>
+      </div>
+<p>뒤에 파일 경로는 성격에 따라 pre, route, post 폴더들로 구분이 된다. 자세한 정보는 <a href="https://cloud.spring.io/spring-cloud-netflix/multi/multi__router_and_filter_zuul.html#_custom_zuul_filter_examples">zuul filter</a> 문서 에서 확인할 수 있다.</p>
+<p>groovy filter 는 ZuulFilter 를 상속받아서 구현한다.</p>
+<p><code class="language-text">Route.groovy</code></p>
+<div class="gatsby-highlight" data-language="groovy">
+      <pre class="language-groovy"><code class="language-groovy"><span class="token keyword">import</span> com<span class="token operator">.</span>netflix<span class="token operator">.</span>zuul<span class="token operator">.</span>ZuulFilter
+<span class="token keyword">import</span> com<span class="token operator">.</span>netflix<span class="token operator">.</span>zuul<span class="token operator">.</span>context<span class="token operator">.</span>RequestContext
+<span class="token keyword">import</span> com<span class="token operator">.</span>netflix<span class="token operator">.</span>zuul<span class="token operator">.</span>exception<span class="token operator">.</span>ZuulException
+<span class="token keyword">import</span> org<span class="token operator">.</span>slf4j<span class="token operator">.</span>Logger
+<span class="token keyword">import</span> org<span class="token operator">.</span>slf4j<span class="token operator">.</span>LoggerFactory
+
+<span class="token keyword">import</span> <span class="token keyword">static</span> org<span class="token operator">.</span>springframework<span class="token operator">.</span>cloud<span class="token operator">.</span>netflix<span class="token operator">.</span>zuul<span class="token operator">.</span>filters<span class="token operator">.</span>support<span class="token operator">.</span>FilterConstants<span class="token operator">.</span>PROXY_KEY
+<span class="token keyword">import</span> <span class="token keyword">static</span> org<span class="token operator">.</span>springframework<span class="token operator">.</span>cloud<span class="token operator">.</span>netflix<span class="token operator">.</span>zuul<span class="token operator">.</span>filters<span class="token operator">.</span>support<span class="token operator">.</span>FilterConstants<span class="token operator">.</span>SIMPLE_HOST_ROUTING_FILTER_ORDER
+
+<span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">SimpleRoute</span> <span class="token keyword">extends</span> <span class="token class-name">ZuulFilter</span> <span class="token punctuation">{</span>
+
+    <span class="token keyword">private</span> <span class="token keyword">static</span> <span class="token keyword">final</span> Logger logger <span class="token operator">=</span> LoggerFactory<span class="token operator">.</span><span class="token function">getLogger</span><span class="token punctuation">(</span>SimpleRoute<span class="token operator">.</span><span class="token keyword">class</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+    <span class="token annotation punctuation">@Override</span>
+    String <span class="token function">filterType</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span> <span class="token string">"route"</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token annotation punctuation">@Override</span>
+    <span class="token keyword">int</span> <span class="token function">filterOrder</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span> SIMPLE_HOST_ROUTING_FILTER_ORDER <span class="token operator">-</span> <span class="token number">1</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token annotation punctuation">@Override</span>
+    <span class="token keyword">boolean</span> <span class="token function">shouldFilter</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span> <span class="token boolean">true</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token annotation punctuation">@Override</span>
+    Object <span class="token function">run</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token keyword">throws</span> ZuulException <span class="token punctuation">{</span>
+        <span class="token keyword">def</span> ctx <span class="token operator">=</span> RequestContext<span class="token operator">.</span><span class="token function">getCurrentContext</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+        <span class="token keyword">def</span> req <span class="token operator">=</span> ctx<span class="token operator">.</span><span class="token function">getRequest</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+        <span class="token keyword">def</span> host <span class="token operator">=</span> ctx<span class="token operator">.</span><span class="token function">getRouteHost</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+        <span class="token keyword">try</span> <span class="token punctuation">{</span>
+
+            RequestContext<span class="token operator">.</span>currentContext<span class="token operator">.</span><span class="token function">setRouteHost</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">URL</span><span class="token punctuation">(</span><span class="token string">"https://another-new-api-service.com"</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+
+            logger<span class="token operator">.</span><span class="token function">info</span><span class="token punctuation">(</span><span class="token string">"REQUEST:: "</span> <span class="token operator">+</span> req<span class="token operator">.</span><span class="token function">getScheme</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">+</span> <span class="token string">" "</span> <span class="token operator">+</span> req<span class="token operator">.</span><span class="token function">getRemoteAddr</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">+</span> <span class="token string">":"</span> <span class="token operator">+</span> req<span class="token operator">.</span><span class="token function">getRemotePort</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+
+            logger<span class="token operator">.</span><span class="token function">info</span><span class="token punctuation">(</span><span class="token string">"REQUEST:: > "</span> <span class="token operator">+</span> req<span class="token operator">.</span><span class="token function">getMethod</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">+</span> <span class="token string">" "</span> <span class="token operator">+</span> req<span class="token operator">.</span><span class="token function">getRequestURI</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">+</span> <span class="token string">" "</span> <span class="token operator">+</span> req<span class="token operator">.</span><span class="token function">getProtocol</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+        <span class="token punctuation">}</span> <span class="token keyword">catch</span><span class="token punctuation">(</span>Exception e<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            logger<span class="token operator">.</span><span class="token function">error</span><span class="token punctuation">(</span><span class="token string">"errer handling"</span><span class="token punctuation">)</span>
+            ctx<span class="token operator">.</span><span class="token function">setRouteHost</span><span class="token punctuation">(</span>host<span class="token punctuation">)</span>
+        <span class="token punctuation">}</span>
+
+
+        <span class="token keyword">return</span> null
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span></code></pre>
+      </div>
+<h3>zuul route 동적으로 변경하기</h3>
+<p>zuul route 정보들은 동적으로 추가하거나 변경할 수 있다. spring-cloud-config 에서 설정값을 추가하거나 변경을 하고 gateway 에서 actuator 를 이용해서 갱신을 시켜주면 route 설정들이 동적으로 갱신된다.</p>
+<p>route 설정을 편집하거나 추가하는 상황이다.</p>
+<h4>1. route 설정 편집과 추가 하기</h4>
+<p><code class="language-text">gateway.yml</code></p>
+<div class="gatsby-highlight" data-language="yml">
+      <pre class="language-yml"><code class="language-yml">########################################
+###              local               ###
+########################################
+spring:
+  profiles: local
+
+zuul:
+  routes:
+    apiService:
+      stripPrefix: false
+      path: /api/**
+      # 1. 기존 경로를 변경
+      url: https://some-api-service.com
+    # 2. 새로추가되는 서비스
+    searchService:
+      stripPrefix: false
+      path: /search/**
+      url: https://search-api-service.com
+
+# groovy filter 가 있는 경로를 적어줍니다.
+gateway:
+  zuul:
+    filters:
+      base-path: /path/to/filter/</code></pre>
+      </div>
+<p>1 번 주석 부분은 기존에 api 라는 경로로 들어왔을 때 new-api-service.com 에서 some-api-service.com 으로 변경을 해주었다.
+2 번 주석 부분은 새로 추가되는 경로이다.
+이렇게 추가와 수정을 해주고 commit/push 를 해준다. push 를 한다고 해서 바로 변경점이 반영되지 않는다.</p>
+<h4>2. gateway 에서 refresh</h4>
+<p>zuul 은 내부적으로 spring-boot-actuator 가 의존성으로 걸려있다. actuator 를 이용해서 spring-cloud-server 를 통해 spring-cloud-config 값들을 동적으로 가져올 수 있다.</p>
+<div class="gatsby-highlight" data-language="bash">
+      <pre class="language-bash"><code class="language-bash">$ <span class="token function">curl</span> -XPOST localhost:8080/actuator/refresh
+<span class="token punctuation">[</span><span class="token string">"config.client.version"</span>,<span class="token string">"zuul.routes.apiService.url"</span>,<span class="token string">"zuul.routes.searchService.path"</span>,<span class="token string">"zuul.routes.searchService.stripPrefix"</span>,<span class="token string">"zuul.routes.searchService.url"</span><span class="token punctuation">]</span></code></pre>
+      </div>
+<p>gateway 에서 /refresh 를 호출하게 되면 처음에 받아왔던 정보에서 변경점들만 가져와서 다시 로딩한다.</p>
+<h2>결론</h2>
+<h3>route 동적 편집 가능</h3>
+<p>zuul 을 이용해서 경로에 따라 원하는 도메인으로 routing 을 해줄 수 있다. 이 설정값들은 spring-cloud-config 에 저장되어 있는데 이 값들을 동적으로 편집할 수 있다. 이 동작은 spring-actuator 을 이용한다.</p>
+<p>post 요청으로 <code class="language-text">/actuator/refresh</code> 를 gateway 에 호출하면 반영이 된다.</p>
+<h3>filter 동적 편집 가능</h3>
+<p>filter 역시 동적으로 편집하거나 추가할 수 있는데, 이는 zuul file manager 를 통해 특정 경로에 있는 groovy filter file 들을 로드해서 읽어서 사용한다. file manager 가 주기적으로 파일의 동기화를 하고 있으므로 파일을 수정하면 지정된 시간마다 동기화를 한다.</p>
+<p>gateway 를 도입하고나서 추가적으로 할 수 있는 것들이 생겼다. 화이트리스트를 만들어 특정 서버군으로 보낼 수도 있고 사용자별로 A/B 테스트를 해볼 수도 있을 것이다. 블랙리스트들도 걸러줄 수 있게 된다. (nginx 에서도 처리가 가능하지만 좀 더 동적으로 가능하고 형상관리도 가능하겠다.) 추가적으로 로그를 모으거나 springboot admin 등을 통해서 gateway 상태도 살펴볼 수있을듯 하다. 예제코드는 <a href="https://github.com/nevercaution/spring-cloud-zuul-example">여기</a> 에서 확인할 수 있다.</p></div></div><div class="blog-post-nav"><div class="prev"><div class="nav-wrap"><div class="angle"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="caret-left" class="svg-inline--fa fa-caret-left fa-w-6 fa-fw " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 512"><path fill="currentColor" d="M192 127.338v257.324c0 17.818-21.543 26.741-34.142 14.142L29.196 270.142c-7.81-7.81-7.81-20.474 0-28.284l128.662-128.662c12.599-12.6 34.142-3.676 34.142 14.142z"></path></svg></div><a rel="prev" href="/spring-boot-redis-pub-sub/"><div><p>Previous Post</p><span>spring boot 에서 redis pub/sub 을 이용해 동적으로 value 사용하기</span></div></a></div></div><div class="next"><div class="nav-wrap"><a rel="next" href="/retrofit-with-spring-boot/"><div><p>Next Post</p><span>spring boot 에서 Retrofit 사용해보기</span></div></a><div class="angle"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="caret-right" class="svg-inline--fa fa-caret-right fa-w-6 fa-fw " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 512"><path fill="currentColor" d="M0 384.662V127.338c0-17.818 21.543-26.741 34.142-14.142l128.662 128.662c7.81 7.81 7.81 20.474 0 28.284L34.142 398.804C21.543 411.404 0 402.48 0 384.662z"></path></svg></div></div></div></div></div><div class="ad"><ins class=" adsbygoogle" style="display:block" data-ad-client="pub-2516810533693172" data-ad-slot="5544246730" data-ad-layout="" data-ad-layout-key="" data-ad-format="auto" data-full-width-responsive="true"></ins></div><div class="comments"><div id="disqus_thread"></div></div></article></div><footer id="footer"><div class="copyright"><span>© <a href="mailto:nevercaution@gmail.com">nevercaution</a> 2019, All rights reserved. Powered by <!-- --> <a href="https://www.gatsbyjs.org/">Gatsby</a></span></div><div class="submenu"></div></footer></div></div><script>
+  
+  
+  if(true) {
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  }
+  if (typeof ga === "function") {
+    ga('create', 'UA-100815581-1', 'auto', {});
+      
+      
+      
+      }
+      </script><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/api-gateway-with-zuul/";window.webpackCompilationHash="86cef863552a4a2778d3";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"app":["/app-800517ac858ff5ad0ec8.js"],"component---src-templates-blog-post-index-js":["/component---src-templates-blog-post-index-js-bc483ec05fb89c66dc3e.js"],"component---src-templates-tag-list-index-js":["/component---src-templates-tag-list-index-js-0735b4d8668f74bca007.js"],"component---src-pages-404-js":["/component---src-pages-404-js-03d84cc65104973697df.js"],"component---src-pages-develop-js":["/component---src-pages-develop-js-795f8cc7c4f716784e1e.js"],"component---src-pages-diary-js":["/component---src-pages-diary-js-071d06ec2d436b82ad9e.js"],"component---src-pages-index-js":["/component---src-pages-index-js-dbfbeaccd15ee62d442a.js"],"component---src-pages-review-js":["/component---src-pages-review-js-72107872c2f95af1e4ae.js"]};/*]]>*/</script><script src="/component---src-templates-blog-post-index-js-bc483ec05fb89c66dc3e.js" async=""></script><script src="/2-d7aa2ab8dc087abd26cb.js" async=""></script><script src="/1-429fd5cf19a86b5db8f8.js" async=""></script><script src="/styles-8d5d13a588417b7a006c.js" async=""></script><script src="/app-800517ac858ff5ad0ec8.js" async=""></script><script src="/webpack-runtime-d5b5090a847dfac9f666.js" async=""></script></body></html>
