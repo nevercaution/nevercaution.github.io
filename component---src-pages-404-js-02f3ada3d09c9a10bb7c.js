@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[3],{305:function(e,n,t){"use strict";t.r(n);var a=t(0),l=t.n(a),o=t(298);n.default=function(){return l.a.createElement(o.a,null,l.a.createElement("h1",null,"404"),l.a.createElement("p",null,"This is not the web page you are looking for."))}}}]);
