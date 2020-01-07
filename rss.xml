@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[nevercaution - rss]]></title><description><![CDATA[작은일기장]]></description><link>https://nevercaution.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 04 Jan 2020 13:46:43 GMT</lastBuildDate><item><title><![CDATA[제주도 한달살기]]></title><description><![CDATA[…]]></description><link>https://nevercaution.github.io/diary-5/</link><guid isPermaLink="false">https://nevercaution.github.io/diary-5/</guid><pubDate>Sat, 04 Jan 2020 20:56:11 GMT</pubDate><content:encoded>&lt;p&gt;내일이면  제주도로 간다. 일단은 한살살기를 목표로 하고 있다. 가서 답답하다 느끼면 한달안에 돌아올테고 그 반대의 경우라면 좀 더 장기적으로 머물 수도 있다. 그런데 내가 아직 제주도를 지금껏 제대로 가본적이 없거니와 특별한 경우를 제외하고는 항상 서을에서 살아왔기 때문에 어떻게 될지는 정말 가봐야 알 것 같다. 물론 아무런 계획없이 가진 않는다. 읽고 싶었던 책들도 몇권 챙겼고, 스프링 관련된 인강도 있고 무엇보다 요새 먹고 있는 약에 대한 기록을 할 수 있는 토이 프로젝트로 하나 만들어볼 생각이다. (이 모든걸 다 하고 올 수는 없겠지만 적어도 할일이 없어 심심하진 않을 것 같다. 그리고 플스도 챙겨간다!)  &lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[nevercaution - rss]]></title><description><![CDATA[작은일기장]]></description><link>https://nevercaution.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 07 Jan 2020 08:18:52 GMT</lastBuildDate><item><title><![CDATA[제주도 한달살기]]></title><description><![CDATA[…]]></description><link>https://nevercaution.github.io/diary-5/</link><guid isPermaLink="false">https://nevercaution.github.io/diary-5/</guid><pubDate>Sat, 04 Jan 2020 20:56:11 GMT</pubDate><content:encoded>&lt;p&gt;내일이면  제주도로 간다. 일단은 한살살기를 목표로 하고 있다. 가서 답답하다 느끼면 한달안에 돌아올테고 그 반대의 경우라면 좀 더 장기적으로 머물 수도 있다. 그런데 내가 아직 제주도를 지금껏 제대로 가본적이 없거니와 특별한 경우를 제외하고는 항상 서을에서 살아왔기 때문에 어떻게 될지는 정말 가봐야 알 것 같다. 물론 아무런 계획없이 가진 않는다. 읽고 싶었던 책들도 몇권 챙겼고, 스프링 관련된 인강도 있고 무엇보다 요새 먹고 있는 약에 대한 기록을 할 수 있는 토이 프로젝트로 하나 만들어볼 생각이다. (이 모든걸 다 하고 올 수는 없겠지만 적어도 할일이 없어 심심하진 않을 것 같다. 그리고 플스도 챙겨간다!)  &lt;/p&gt;
 &lt;p&gt;제주도로 가는 이유는 나름 명확하다. 공기좋고 물 좋은 곳에서 지내면 무엇보다 건강에 도움이 되지 않을까 하는 이유이다. 물론 이런 이유에서는 다른 지역들도 있었지만, 이왕에 마음 먹고 가는 것이라면 제대로 가보고 싶은 마음이 컸고 무엇보다 이번 기회에 제주도와 좀 더 친해지고 싶었다.&lt;br&gt;
 병원에는 따로 제주도에 간다는 언급을 하지 않았다. 2주마다 받는 항암은 당일치기로 움직일 생각이다. 물론 체력이 잘 받쳐줘야 하지만.. 아직은 다른 병원으로 전원을 하고 싶지는 않다. &lt;/p&gt;
 &lt;p&gt;많은 책에서 언급 돠었듯이 내가 생각하고 믿는 대로 이루어 진다고 했다. 물론 이미 그렇게 되었다는 강력한 믿음이 중요하다. 지금까지 물론 나는 이 말을 믿고 다 잘될거라 생각을 하고는 있었다. 그런데 이번 재주도 여행을 통해 좀 더 구체적으로 앞으로의 나의 긍정적인 모습을 그려보고 믿어볼 생각이다.&lt;br&gt;
@@ -955,63 +955,63 @@ dependencyManagement {
 &lt;p&gt;application.name 과 spring.profiles.active 두 값으로 cloud config 에 정보를 요청한다. 이 값을 적지 않을 경우엔 값을 가져오지 못한다. 또한 profiles.active 를 명시해주지 않으면 기본적으로 default profile 로 로드를 시도한다.&lt;/p&gt;
 &lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;bootstrap.yml&lt;/code&gt;&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;yml&quot;&gt;
-      &lt;pre class=&quot;language-yml&quot;&gt;&lt;code class=&quot;language-yml&quot;&gt;spring:
-  profiles:
-    active: local
-  # 이 이름으로 spring cloud config server 에서 정보를 가져온다.
-  application:
-    name: gateway
+      &lt;pre class=&quot;language-yml&quot;&gt;&lt;code class=&quot;language-yml&quot;&gt;&lt;span class=&quot;token key atrule&quot;&gt;spring&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;token key atrule&quot;&gt;profiles&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token key atrule&quot;&gt;active&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; local
+  &lt;span class=&quot;token comment&quot;&gt;# 이 이름으로 spring cloud config server 에서 정보를 가져온다.&lt;/span&gt;
+  &lt;span class=&quot;token key atrule&quot;&gt;application&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token key atrule&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; gateway
 
----
-########################################
-###              local               ###
-########################################
-spring:
-  profiles: local
-  cloud:
-    config:
-      uri: http://localhost:8889
----&lt;/code&gt;&lt;/pre&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;---&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;########################################&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;###              local               ###&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;########################################&lt;/span&gt;
+&lt;span class=&quot;token key atrule&quot;&gt;spring&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;token key atrule&quot;&gt;profiles&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; local
+  &lt;span class=&quot;token key atrule&quot;&gt;cloud&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token key atrule&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;token key atrule&quot;&gt;uri&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; http&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;//localhost&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;8889&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;---&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
 &lt;p&gt;spring-cloud 에서 zuul route 설정들을 받아온다. 만약 spring-cloud 가 죽었을 경우를 대비해야 한다면 route 설정값들을 application.yml 에 해주면 된다.
 참고로 spring-cloud-config 기본 주소는 localhost:8888 이다. 즉 8888포트로 사용할 거라면 따로 설정하지 않아도 기본으로 이 주소로 접근을 시도한다. 원하는 경로로 사용할 경우에는 반드시 명시해주어야 한다.&lt;/p&gt;
 &lt;p&gt;필요에 따라 zuul 설정을 여기에서 해줘도 된다. 만약 cloud config 에서 값을 읽어들이지 못할 경우엔 여기에 있는 값을 사용하게 된다.&lt;/p&gt;
 &lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;application.yml&lt;/code&gt;&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;yml&quot;&gt;
-      &lt;pre class=&quot;language-yml&quot;&gt;&lt;code class=&quot;language-yml&quot;&gt;spring:
-  # groovy template 는 사용하지 않는다.
-  groovy:
-    template:
-      cache: false
+      &lt;pre class=&quot;language-yml&quot;&gt;&lt;code class=&quot;language-yml&quot;&gt;&lt;span class=&quot;token key atrule&quot;&gt;spring&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;token comment&quot;&gt;# groovy template 는 사용하지 않는다.&lt;/span&gt;
+  &lt;span class=&quot;token key atrule&quot;&gt;groovy&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token key atrule&quot;&gt;template&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;token key atrule&quot;&gt;cache&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token boolean important&quot;&gt;false&lt;/span&gt;
 
 
-# 필요한 actuator end point 만 열어둔다.
-management:
-  endpoints:
-    web:
-      exposure:
-        # 원하는 endpoint 를 추가할 수 있다.
-        include: info, routes, filters, refresh
+&lt;span class=&quot;token comment&quot;&gt;# 필요한 actuator end point 만 열어둔다.&lt;/span&gt;
+&lt;span class=&quot;token key atrule&quot;&gt;management&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;token key atrule&quot;&gt;endpoints&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token key atrule&quot;&gt;web&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;token key atrule&quot;&gt;exposure&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;token comment&quot;&gt;# 원하는 endpoint 를 추가할 수 있다.&lt;/span&gt;
+        &lt;span class=&quot;token key atrule&quot;&gt;include&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; info&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; routes&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; filters&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; refresh
 
 
----
-########################################
-###              local               ###
-########################################
-spring:
-  profiles: local
+&lt;span class=&quot;token punctuation&quot;&gt;---&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;########################################&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;###              local               ###&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;########################################&lt;/span&gt;
+&lt;span class=&quot;token key atrule&quot;&gt;spring&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;token key atrule&quot;&gt;profiles&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; local
 
-server:
-  port: 8087
+&lt;span class=&quot;token key atrule&quot;&gt;server&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;token key atrule&quot;&gt;port&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;8087&lt;/span&gt;
 
-# 여기서 설정도 가능하다. 우선순위는 cloud config 가 더 높다.
-#zuul:
-#  routes:
-#    apiService:
-#      stripPrefix: false
-#      path: /api/**
-#      url: https://new-api-service.com
----&lt;/code&gt;&lt;/pre&gt;
+&lt;span class=&quot;token comment&quot;&gt;# 여기서 설정도 가능하다. 우선순위는 cloud config 가 더 높다.&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;#zuul:&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;#  routes:&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;#    apiService:&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;#      stripPrefix: false&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;#      path: /api/**&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;#      url: https://new-api-service.com&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;---&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
 &lt;p&gt;application 에 @EnableZuulProxy 만 달아주면 gateway는 설정이 모두 끝난다.&lt;/p&gt;
 &lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;GatewayApplication.java&lt;/code&gt;&lt;/p&gt;
@@ -1073,17 +1073,17 @@ dependencyManagement {
 &lt;h4&gt;프로젝트 설정&lt;/h4&gt;
 &lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;application.yml&lt;/code&gt;&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;yml&quot;&gt;
-      &lt;pre class=&quot;language-yml&quot;&gt;&lt;code class=&quot;language-yml&quot;&gt;server:
-  port: 8889
+      &lt;pre class=&quot;language-yml&quot;&gt;&lt;code class=&quot;language-yml&quot;&gt;&lt;span class=&quot;token key atrule&quot;&gt;server&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;token key atrule&quot;&gt;port&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;8889&lt;/span&gt;
 
-spring:
-  cloud:
-    config:
-      server:
-        git:
-          uri: https://github.com/user/cloud-config/config.git
-          username: username
-          password: password&lt;/code&gt;&lt;/pre&gt;
+&lt;span class=&quot;token key atrule&quot;&gt;spring&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;token key atrule&quot;&gt;cloud&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token key atrule&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;token key atrule&quot;&gt;server&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;token key atrule&quot;&gt;git&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+          &lt;span class=&quot;token key atrule&quot;&gt;uri&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; https&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;//github.com/user/cloud&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;config/config.git
+          &lt;span class=&quot;token key atrule&quot;&gt;username&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; username
+          &lt;span class=&quot;token key atrule&quot;&gt;password&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; password&lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
 &lt;p&gt;config-server 역시 application 에 @EnableConfigServer 달아주면 끝.
 gateway 에서 필요한 값들은 config.git 에서 받아온다.&lt;/p&gt;
@@ -1106,27 +1106,27 @@ gateway 에서 필요한 값들은 config.git 에서 받아온다.&lt;/p&gt;
 &lt;p&gt;cloud-config 는 gateway 에서 사용할 zuul 에 관련된 설정들을 모아놓는 곳이다.&lt;/p&gt;
 &lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;gateway.yml&lt;/code&gt;&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;yml&quot;&gt;
-      &lt;pre class=&quot;language-yml&quot;&gt;&lt;code class=&quot;language-yml&quot;&gt;---
-########################################
-###              local               ###
-########################################
-spring:
-  profiles: local
+      &lt;pre class=&quot;language-yml&quot;&gt;&lt;code class=&quot;language-yml&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;---&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;########################################&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;###              local               ###&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;########################################&lt;/span&gt;
+&lt;span class=&quot;token key atrule&quot;&gt;spring&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;token key atrule&quot;&gt;profiles&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; local
 
-# zuul route 설정들.
-zuul:
-  routes:
-    apiService:
-      stripPrefix: false
-      path: /api/**
-      url: https://new-api-service.com
+&lt;span class=&quot;token comment&quot;&gt;# zuul route 설정들.&lt;/span&gt;
+&lt;span class=&quot;token key atrule&quot;&gt;zuul&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;token key atrule&quot;&gt;routes&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token key atrule&quot;&gt;apiService&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;token key atrule&quot;&gt;stripPrefix&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token boolean important&quot;&gt;false&lt;/span&gt;
+      &lt;span class=&quot;token key atrule&quot;&gt;path&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; /api/**
+      &lt;span class=&quot;token key atrule&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; https&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;//new&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;api&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;service.com
 
-# groovy filter 가 있는 경로를 적어준다.
-gateway:
-  zuul:
-    filters:
-      base-path: /path/to/filter/
----&lt;/code&gt;&lt;/pre&gt;
+&lt;span class=&quot;token comment&quot;&gt;# groovy filter 가 있는 경로를 적어준다.&lt;/span&gt;
+&lt;span class=&quot;token key atrule&quot;&gt;gateway&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;token key atrule&quot;&gt;zuul&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token key atrule&quot;&gt;filters&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;token key atrule&quot;&gt;base-path&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; /path/to/filter/
+&lt;span class=&quot;token punctuation&quot;&gt;---&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
 &lt;h3&gt;정리하자면&lt;/h3&gt;
 &lt;p&gt;gateway 에서는 zuul route 설정들을 이용해서 요청들을 받아서 처리해준다.
@@ -1175,18 +1175,18 @@ FileManager.init 에서 첫번째 파라미터는 이 경로에 몇초마다 파
 &lt;p&gt;groovy filter 는 ZuulFilter 를 상속받아서 구현한다.&lt;/p&gt;
 &lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;Route.groovy&lt;/code&gt;&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;groovy&quot;&gt;
-      &lt;pre class=&quot;language-groovy&quot;&gt;&lt;code class=&quot;language-groovy&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; com&lt;span class=&quot;token operator&quot;&gt;.&lt;/span&gt;netflix&lt;span class=&quot;token operator&quot;&gt;.&lt;/span&gt;zuul&lt;span class=&quot;token operator&quot;&gt;.&lt;/span&gt;ZuulFilter
-&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; com&lt;span class=&quot;token operator&quot;&gt;.&lt;/span&gt;netflix&lt;span class=&quot;token operator&quot;&gt;.&lt;/span&gt;zuul&lt;span class=&quot;token operator&quot;&gt;.&lt;/span&gt;context&lt;span class=&quot;token operator&quot;&gt;.&lt;/span&gt;RequestContext
-&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; com&lt;span class=&quot;token operator&quot;&gt;.&lt;/span&gt;netflix&lt;span class=&quot;token operator&quot;&gt;.&lt;/span&gt;zuul&lt;span class=&quot;token operator&quot;&gt;.&lt;/span&gt;exception&lt;span class=&quot;token operator&quot;&gt;.&lt;/span&gt;ZuulException
-&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; org&lt;span class=&quot;token operator&quot;&gt;.&lt;/span&gt;slf4j&lt;span class=&quot;token operator&quot;&gt;.&lt;/span&gt;Logger
-&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; org&lt;span class=&quot;token operator&quot;&gt;.&lt;/span&gt;slf4j&lt;span class=&quot;token operator&quot;&gt;.&lt;/span&gt;LoggerFactory
+      &lt;pre class=&quot;language-groovy&quot;&gt;&lt;code class=&quot;language-groovy&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; com&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;netflix&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;zuul&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;ZuulFilter
+&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; com&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;netflix&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;zuul&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;context&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;RequestContext
+&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; com&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;netflix&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;zuul&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;exception&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;ZuulException
+&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; org&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;slf4j&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;Logger
+&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; org&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;slf4j&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;LoggerFactory
 
-&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;static&lt;/span&gt; org&lt;span class=&quot;token operator&quot;&gt;.&lt;/span&gt;springframework&lt;span class=&quot;token operator&quot;&gt;.&lt;/span&gt;cloud&lt;span class=&quot;token operator&quot;&gt;.&lt;/span&gt;netflix&lt;span class=&quot;token operator&quot;&gt;.&lt;/span&gt;zuul&lt;span class=&quot;token operator&quot;&gt;.&lt;/span&gt;filters&lt;span class=&quot;token operator&quot;&gt;.&lt;/span&gt;support&lt;span class=&quot;token operator&quot;&gt;.&lt;/span&gt;FilterConstants&lt;span class=&quot;token operator&quot;&gt;.&lt;/span&gt;PROXY_KEY
-&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;static&lt;/span&gt; org&lt;span class=&quot;token operator&quot;&gt;.&lt;/span&gt;springframework&lt;span class=&quot;token operator&quot;&gt;.&lt;/span&gt;cloud&lt;span class=&quot;token operator&quot;&gt;.&lt;/span&gt;netflix&lt;span class=&quot;token operator&quot;&gt;.&lt;/span&gt;zuul&lt;span class=&quot;token operator&quot;&gt;.&lt;/span&gt;filters&lt;span class=&quot;token operator&quot;&gt;.&lt;/span&gt;support&lt;span class=&quot;token operator&quot;&gt;.&lt;/span&gt;FilterConstants&lt;span class=&quot;token operator&quot;&gt;.&lt;/span&gt;SIMPLE_HOST_ROUTING_FILTER_ORDER
+&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;static&lt;/span&gt; org&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;springframework&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;cloud&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;netflix&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;zuul&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;filters&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;support&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;FilterConstants&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;PROXY_KEY
+&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;static&lt;/span&gt; org&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;springframework&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;cloud&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;netflix&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;zuul&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;filters&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;support&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;FilterConstants&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;SIMPLE_HOST_ROUTING_FILTER_ORDER
 
 &lt;span class=&quot;token keyword&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;SimpleRoute&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;extends&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;ZuulFilter&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
 
-    &lt;span class=&quot;token keyword&quot;&gt;private&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;final&lt;/span&gt; Logger logger &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; LoggerFactory&lt;span class=&quot;token operator&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;getLogger&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;SimpleRoute&lt;span class=&quot;token operator&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;private&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;final&lt;/span&gt; Logger logger &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; LoggerFactory&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;getLogger&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;SimpleRoute&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 
     &lt;span class=&quot;token annotation punctuation&quot;&gt;@Override&lt;/span&gt;
     String &lt;span class=&quot;token function&quot;&gt;filterType&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
@@ -1205,21 +1205,21 @@ FileManager.init 에서 첫번째 파라미터는 이 경로에 몇초마다 파
 
     &lt;span class=&quot;token annotation punctuation&quot;&gt;@Override&lt;/span&gt;
     Object &lt;span class=&quot;token function&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;throws&lt;/span&gt; ZuulException &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-        &lt;span class=&quot;token keyword&quot;&gt;def&lt;/span&gt; ctx &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; RequestContext&lt;span class=&quot;token operator&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;getCurrentContext&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-        &lt;span class=&quot;token keyword&quot;&gt;def&lt;/span&gt; req &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; ctx&lt;span class=&quot;token operator&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;getRequest&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;def&lt;/span&gt; ctx &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; RequestContext&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;getCurrentContext&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;def&lt;/span&gt; req &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; ctx&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;getRequest&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
 
-        &lt;span class=&quot;token keyword&quot;&gt;def&lt;/span&gt; host &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; ctx&lt;span class=&quot;token operator&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;getRouteHost&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;def&lt;/span&gt; host &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; ctx&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;getRouteHost&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
 
         &lt;span class=&quot;token keyword&quot;&gt;try&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
 
-            RequestContext&lt;span class=&quot;token operator&quot;&gt;.&lt;/span&gt;currentContext&lt;span class=&quot;token operator&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;setRouteHost&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;URL&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;https://another-new-api-service.com&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+            RequestContext&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;currentContext&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;setRouteHost&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;URL&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;https://another-new-api-service.com&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
 
-            logger&lt;span class=&quot;token operator&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;info&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;REQUEST:: &quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; req&lt;span class=&quot;token operator&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;getScheme&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot; &quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; req&lt;span class=&quot;token operator&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;getRemoteAddr&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;:&quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; req&lt;span class=&quot;token operator&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;getRemotePort&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+            logger&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;info&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;REQUEST:: &quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; req&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;getScheme&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot; &quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; req&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;getRemoteAddr&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;:&quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; req&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;getRemotePort&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
 
-            logger&lt;span class=&quot;token operator&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;info&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;REQUEST:: &gt; &quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; req&lt;span class=&quot;token operator&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;getMethod&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot; &quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; req&lt;span class=&quot;token operator&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;getRequestURI&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot; &quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; req&lt;span class=&quot;token operator&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;getProtocol&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+            logger&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;info&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;REQUEST:: &gt; &quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; req&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;getMethod&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot; &quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; req&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;getRequestURI&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot; &quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; req&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;getProtocol&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
         &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;catch&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;Exception e&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-            logger&lt;span class=&quot;token operator&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;error&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;errer handling&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-            ctx&lt;span class=&quot;token operator&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;setRouteHost&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;host&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+            logger&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;error&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;errer handling&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+            ctx&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;setRouteHost&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;host&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
         &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
 
 
@@ -1233,30 +1233,30 @@ FileManager.init 에서 첫번째 파라미터는 이 경로에 몇초마다 파
 &lt;h4&gt;1. route 설정 편집과 추가 하기&lt;/h4&gt;
 &lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;gateway.yml&lt;/code&gt;&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;yml&quot;&gt;
-      &lt;pre class=&quot;language-yml&quot;&gt;&lt;code class=&quot;language-yml&quot;&gt;########################################
-###              local               ###
-########################################
-spring:
-  profiles: local
+      &lt;pre class=&quot;language-yml&quot;&gt;&lt;code class=&quot;language-yml&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;########################################&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;###              local               ###&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;########################################&lt;/span&gt;
+&lt;span class=&quot;token key atrule&quot;&gt;spring&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;token key atrule&quot;&gt;profiles&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; local
 
-zuul:
-  routes:
-    apiService:
-      stripPrefix: false
-      path: /api/**
-      # 1. 기존 경로를 변경
-      url: https://some-api-service.com
-    # 2. 새로추가되는 서비스
-    searchService:
-      stripPrefix: false
-      path: /search/**
-      url: https://search-api-service.com
+&lt;span class=&quot;token key atrule&quot;&gt;zuul&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;token key atrule&quot;&gt;routes&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token key atrule&quot;&gt;apiService&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;token key atrule&quot;&gt;stripPrefix&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token boolean important&quot;&gt;false&lt;/span&gt;
+      &lt;span class=&quot;token key atrule&quot;&gt;path&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; /api/**
+      &lt;span class=&quot;token comment&quot;&gt;# 1. 기존 경로를 변경&lt;/span&gt;
+      &lt;span class=&quot;token key atrule&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; https&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;//some&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;api&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;service.com
+    &lt;span class=&quot;token comment&quot;&gt;# 2. 새로추가되는 서비스&lt;/span&gt;
+    &lt;span class=&quot;token key atrule&quot;&gt;searchService&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;token key atrule&quot;&gt;stripPrefix&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token boolean important&quot;&gt;false&lt;/span&gt;
+      &lt;span class=&quot;token key atrule&quot;&gt;path&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; /search/**
+      &lt;span class=&quot;token key atrule&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; https&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;//search&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;api&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;service.com
 
-# groovy filter 가 있는 경로를 적어줍니다.
-gateway:
-  zuul:
-    filters:
-      base-path: /path/to/filter/&lt;/code&gt;&lt;/pre&gt;
+&lt;span class=&quot;token comment&quot;&gt;# groovy filter 가 있는 경로를 적어줍니다.&lt;/span&gt;
+&lt;span class=&quot;token key atrule&quot;&gt;gateway&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;token key atrule&quot;&gt;zuul&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token key atrule&quot;&gt;filters&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;token key atrule&quot;&gt;base-path&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; /path/to/filter/&lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
 &lt;p&gt;1 번 주석 부분은 기존에 api 라는 경로로 들어왔을 때 new-api-service.com 에서 some-api-service.com 으로 변경을 해주었다.
 2 번 주석 부분은 새로 추가되는 경로이다.
