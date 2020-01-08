@@ -63,63 +63,63 @@ dependencyManagement {
 <p>application.name 과 spring.profiles.active 두 값으로 cloud config 에 정보를 요청한다. 이 값을 적지 않을 경우엔 값을 가져오지 못한다. 또한 profiles.active 를 명시해주지 않으면 기본적으로 default profile 로 로드를 시도한다.</p>
 <p><code class="language-text">bootstrap.yml</code></p>
 <div class="gatsby-highlight" data-language="yml">
-      <pre class="language-yml"><code class="language-yml"><span class="token key atrule">spring</span><span class="token punctuation">:</span>
-  <span class="token key atrule">profiles</span><span class="token punctuation">:</span>
-    <span class="token key atrule">active</span><span class="token punctuation">:</span> local
-  <span class="token comment"># 이 이름으로 spring cloud config server 에서 정보를 가져온다.</span>
-  <span class="token key atrule">application</span><span class="token punctuation">:</span>
-    <span class="token key atrule">name</span><span class="token punctuation">:</span> gateway
+      <pre class="language-yml"><code class="language-yml">spring:
+  profiles:
+    active: local
+  # 이 이름으로 spring cloud config server 에서 정보를 가져온다.
+  application:
+    name: gateway
 
-<span class="token punctuation">---</span>
-<span class="token comment">########################################</span>
-<span class="token comment">###              local               ###</span>
-<span class="token comment">########################################</span>
-<span class="token key atrule">spring</span><span class="token punctuation">:</span>
-  <span class="token key atrule">profiles</span><span class="token punctuation">:</span> local
-  <span class="token key atrule">cloud</span><span class="token punctuation">:</span>
-    <span class="token key atrule">config</span><span class="token punctuation">:</span>
-      <span class="token key atrule">uri</span><span class="token punctuation">:</span> http<span class="token punctuation">:</span>//localhost<span class="token punctuation">:</span><span class="token number">8889</span>
-<span class="token punctuation">---</span></code></pre>
+---
+########################################
+###              local               ###
+########################################
+spring:
+  profiles: local
+  cloud:
+    config:
+      uri: http://localhost:8889
+---</code></pre>
       </div>
 <p>spring-cloud 에서 zuul route 설정들을 받아온다. 만약 spring-cloud 가 죽었을 경우를 대비해야 한다면 route 설정값들을 application.yml 에 해주면 된다.
 참고로 spring-cloud-config 기본 주소는 localhost:8888 이다. 즉 8888포트로 사용할 거라면 따로 설정하지 않아도 기본으로 이 주소로 접근을 시도한다. 원하는 경로로 사용할 경우에는 반드시 명시해주어야 한다.</p>
 <p>필요에 따라 zuul 설정을 여기에서 해줘도 된다. 만약 cloud config 에서 값을 읽어들이지 못할 경우엔 여기에 있는 값을 사용하게 된다.</p>
 <p><code class="language-text">application.yml</code></p>
 <div class="gatsby-highlight" data-language="yml">
-      <pre class="language-yml"><code class="language-yml"><span class="token key atrule">spring</span><span class="token punctuation">:</span>
-  <span class="token comment"># groovy template 는 사용하지 않는다.</span>
-  <span class="token key atrule">groovy</span><span class="token punctuation">:</span>
-    <span class="token key atrule">template</span><span class="token punctuation">:</span>
-      <span class="token key atrule">cache</span><span class="token punctuation">:</span> <span class="token boolean important">false</span>
+      <pre class="language-yml"><code class="language-yml">spring:
+  # groovy template 는 사용하지 않는다.
+  groovy:
+    template:
+      cache: false
 
 
-<span class="token comment"># 필요한 actuator end point 만 열어둔다.</span>
-<span class="token key atrule">management</span><span class="token punctuation">:</span>
-  <span class="token key atrule">endpoints</span><span class="token punctuation">:</span>
-    <span class="token key atrule">web</span><span class="token punctuation">:</span>
-      <span class="token key atrule">exposure</span><span class="token punctuation">:</span>
-        <span class="token comment"># 원하는 endpoint 를 추가할 수 있다.</span>
-        <span class="token key atrule">include</span><span class="token punctuation">:</span> info<span class="token punctuation">,</span> routes<span class="token punctuation">,</span> filters<span class="token punctuation">,</span> refresh
+# 필요한 actuator end point 만 열어둔다.
+management:
+  endpoints:
+    web:
+      exposure:
+        # 원하는 endpoint 를 추가할 수 있다.
+        include: info, routes, filters, refresh
 
 
-<span class="token punctuation">---</span>
-<span class="token comment">########################################</span>
-<span class="token comment">###              local               ###</span>
-<span class="token comment">########################################</span>
-<span class="token key atrule">spring</span><span class="token punctuation">:</span>
-  <span class="token key atrule">profiles</span><span class="token punctuation">:</span> local
+---
+########################################
+###              local               ###
+########################################
+spring:
+  profiles: local
 
-<span class="token key atrule">server</span><span class="token punctuation">:</span>
-  <span class="token key atrule">port</span><span class="token punctuation">:</span> <span class="token number">8087</span>
+server:
+  port: 8087
 
-<span class="token comment"># 여기서 설정도 가능하다. 우선순위는 cloud config 가 더 높다.</span>
-<span class="token comment">#zuul:</span>
-<span class="token comment">#  routes:</span>
-<span class="token comment">#    apiService:</span>
-<span class="token comment">#      stripPrefix: false</span>
-<span class="token comment">#      path: /api/**</span>
-<span class="token comment">#      url: https://new-api-service.com</span>
-<span class="token punctuation">---</span></code></pre>
+# 여기서 설정도 가능하다. 우선순위는 cloud config 가 더 높다.
+#zuul:
+#  routes:
+#    apiService:
+#      stripPrefix: false
+#      path: /api/**
+#      url: https://new-api-service.com
+---</code></pre>
       </div>
 <p>application 에 @EnableZuulProxy 만 달아주면 gateway는 설정이 모두 끝난다.</p>
 <p><code class="language-text">GatewayApplication.java</code></p>
@@ -181,17 +181,17 @@ dependencyManagement {
 <h4>프로젝트 설정</h4>
 <p><code class="language-text">application.yml</code></p>
 <div class="gatsby-highlight" data-language="yml">
-      <pre class="language-yml"><code class="language-yml"><span class="token key atrule">server</span><span class="token punctuation">:</span>
-  <span class="token key atrule">port</span><span class="token punctuation">:</span> <span class="token number">8889</span>
+      <pre class="language-yml"><code class="language-yml">server:
+  port: 8889
 
-<span class="token key atrule">spring</span><span class="token punctuation">:</span>
-  <span class="token key atrule">cloud</span><span class="token punctuation">:</span>
-    <span class="token key atrule">config</span><span class="token punctuation">:</span>
-      <span class="token key atrule">server</span><span class="token punctuation">:</span>
-        <span class="token key atrule">git</span><span class="token punctuation">:</span>
-          <span class="token key atrule">uri</span><span class="token punctuation">:</span> https<span class="token punctuation">:</span>//github.com/user/cloud<span class="token punctuation">-</span>config/config.git
-          <span class="token key atrule">username</span><span class="token punctuation">:</span> username
-          <span class="token key atrule">password</span><span class="token punctuation">:</span> password</code></pre>
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/user/cloud-config/config.git
+          username: username
+          password: password</code></pre>
       </div>
 <p>config-server 역시 application 에 @EnableConfigServer 달아주면 끝.
 gateway 에서 필요한 값들은 config.git 에서 받아온다.</p>
@@ -214,27 +214,27 @@ gateway 에서 필요한 값들은 config.git 에서 받아온다.</p>
 <p>cloud-config 는 gateway 에서 사용할 zuul 에 관련된 설정들을 모아놓는 곳이다.</p>
 <p><code class="language-text">gateway.yml</code></p>
 <div class="gatsby-highlight" data-language="yml">
-      <pre class="language-yml"><code class="language-yml"><span class="token punctuation">---</span>
-<span class="token comment">########################################</span>
-<span class="token comment">###              local               ###</span>
-<span class="token comment">########################################</span>
-<span class="token key atrule">spring</span><span class="token punctuation">:</span>
-  <span class="token key atrule">profiles</span><span class="token punctuation">:</span> local
+      <pre class="language-yml"><code class="language-yml">---
+########################################
+###              local               ###
+########################################
+spring:
+  profiles: local
 
-<span class="token comment"># zuul route 설정들.</span>
-<span class="token key atrule">zuul</span><span class="token punctuation">:</span>
-  <span class="token key atrule">routes</span><span class="token punctuation">:</span>
-    <span class="token key atrule">apiService</span><span class="token punctuation">:</span>
-      <span class="token key atrule">stripPrefix</span><span class="token punctuation">:</span> <span class="token boolean important">false</span>
-      <span class="token key atrule">path</span><span class="token punctuation">:</span> /api/**
-      <span class="token key atrule">url</span><span class="token punctuation">:</span> https<span class="token punctuation">:</span>//new<span class="token punctuation">-</span>api<span class="token punctuation">-</span>service.com
+# zuul route 설정들.
+zuul:
+  routes:
+    apiService:
+      stripPrefix: false
+      path: /api/**
+      url: https://new-api-service.com
 
-<span class="token comment"># groovy filter 가 있는 경로를 적어준다.</span>
-<span class="token key atrule">gateway</span><span class="token punctuation">:</span>
-  <span class="token key atrule">zuul</span><span class="token punctuation">:</span>
-    <span class="token key atrule">filters</span><span class="token punctuation">:</span>
-      <span class="token key atrule">base-path</span><span class="token punctuation">:</span> /path/to/filter/
-<span class="token punctuation">---</span></code></pre>
+# groovy filter 가 있는 경로를 적어준다.
+gateway:
+  zuul:
+    filters:
+      base-path: /path/to/filter/
+---</code></pre>
       </div>
 <h3>정리하자면</h3>
 <p>gateway 에서는 zuul route 설정들을 이용해서 요청들을 받아서 처리해준다.
@@ -341,30 +341,30 @@ FileManager.init 에서 첫번째 파라미터는 이 경로에 몇초마다 파
 <h4>1. route 설정 편집과 추가 하기</h4>
 <p><code class="language-text">gateway.yml</code></p>
 <div class="gatsby-highlight" data-language="yml">
-      <pre class="language-yml"><code class="language-yml"><span class="token comment">########################################</span>
-<span class="token comment">###              local               ###</span>
-<span class="token comment">########################################</span>
-<span class="token key atrule">spring</span><span class="token punctuation">:</span>
-  <span class="token key atrule">profiles</span><span class="token punctuation">:</span> local
+      <pre class="language-yml"><code class="language-yml">########################################
+###              local               ###
+########################################
+spring:
+  profiles: local
 
-<span class="token key atrule">zuul</span><span class="token punctuation">:</span>
-  <span class="token key atrule">routes</span><span class="token punctuation">:</span>
-    <span class="token key atrule">apiService</span><span class="token punctuation">:</span>
-      <span class="token key atrule">stripPrefix</span><span class="token punctuation">:</span> <span class="token boolean important">false</span>
-      <span class="token key atrule">path</span><span class="token punctuation">:</span> /api/**
-      <span class="token comment"># 1. 기존 경로를 변경</span>
-      <span class="token key atrule">url</span><span class="token punctuation">:</span> https<span class="token punctuation">:</span>//some<span class="token punctuation">-</span>api<span class="token punctuation">-</span>service.com
-    <span class="token comment"># 2. 새로추가되는 서비스</span>
-    <span class="token key atrule">searchService</span><span class="token punctuation">:</span>
-      <span class="token key atrule">stripPrefix</span><span class="token punctuation">:</span> <span class="token boolean important">false</span>
-      <span class="token key atrule">path</span><span class="token punctuation">:</span> /search/**
-      <span class="token key atrule">url</span><span class="token punctuation">:</span> https<span class="token punctuation">:</span>//search<span class="token punctuation">-</span>api<span class="token punctuation">-</span>service.com
+zuul:
+  routes:
+    apiService:
+      stripPrefix: false
+      path: /api/**
+      # 1. 기존 경로를 변경
+      url: https://some-api-service.com
+    # 2. 새로추가되는 서비스
+    searchService:
+      stripPrefix: false
+      path: /search/**
+      url: https://search-api-service.com
 
-<span class="token comment"># groovy filter 가 있는 경로를 적어줍니다.</span>
-<span class="token key atrule">gateway</span><span class="token punctuation">:</span>
-  <span class="token key atrule">zuul</span><span class="token punctuation">:</span>
-    <span class="token key atrule">filters</span><span class="token punctuation">:</span>
-      <span class="token key atrule">base-path</span><span class="token punctuation">:</span> /path/to/filter/</code></pre>
+# groovy filter 가 있는 경로를 적어줍니다.
+gateway:
+  zuul:
+    filters:
+      base-path: /path/to/filter/</code></pre>
       </div>
 <p>1 번 주석 부분은 기존에 api 라는 경로로 들어왔을 때 new-api-service.com 에서 some-api-service.com 으로 변경을 해주었다.
 2 번 주석 부분은 새로 추가되는 경로이다.
